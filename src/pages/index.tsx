@@ -28,7 +28,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   useEffect(() => {
     const analytics = getAnalytics(app);
-    console.log("[ENV TEST]", process.env.NEXT_PUBLIC_TEST);
   }, []);
   return (
     <main>
