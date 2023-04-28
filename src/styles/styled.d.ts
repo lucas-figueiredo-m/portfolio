@@ -18,6 +18,8 @@ declare module "styled-components" {
       black: string;
       background: string;
       text: string;
+      white: string;
+      gray: string;
     };
   }
 }

@@ -13,7 +13,7 @@ import { IoLogoNodejs, IoLogoReact, IoLogoGithub } from "react-icons/io5";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const PorfolioPage: React.FC = () => {
+const WorkPage: React.FC = () => {
   return (
     <HomeContainer>
       <Header />
@@ -26,4 +26,4 @@ const PorfolioPage: React.FC = () => {
   );
 };
 
-export default PorfolioPage;
+export default WorkPage;

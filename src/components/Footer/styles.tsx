@@ -1,34 +1,81 @@
 import styled from "styled-components";
 
-import { IoLogoGithub, IoLogoLinkedin, IoMail } from "react-icons/io5";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 export const Container = styled.footer`
   width: 100%;
   display: flex;
+  margin-top: 5rem;
+  /* background: white; */
+
+  /* height: 5rem; */
   align-items: center;
   justify-content: center;
-  height: 4rem;
-  gap: 2rem;
 
   > div {
     display: flex;
-    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid ${({ theme }) => theme.colors.support};
+    /* background: green; */
+    padding: 2rem 0;
+
+    button {
+      background: none;
+      border: none;
+      color: ${({ theme }) => theme.colors.secondary};
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1.2rem;
+      font-family: "Montserrat";
+    }
+  }
+
+  > section {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 450px) {
+    button {
+      font-size: 0.9rem;
+    }
   }
 `;
 
 export const LinkedinIcon = styled(IoLogoLinkedin)`
-  width: 3rem;
-  height: 3rem;
-  color: rgb(15, 91, 182);
-  /* background-color: #ffffff; */
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  color: ${({ theme }) => theme.colors.gray};
+  transition: 0.5s;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.support};
+  }
+
+  @media (max-width: 450px) {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 `;
 export const GithubIcon = styled(IoLogoGithub)`
-  width: 3rem;
-  height: 3rem;
-  color: #ffffff;
-`;
-export const EmailIcon = styled(IoMail)`
-  width: 3rem;
-  height: 3rem;
-  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  color: ${({ theme }) => theme.colors.gray};
+  transition: 0.5s;
+  margin-left: 1.5rem;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.support};
+  }
+
+  @media (max-width: 450px) {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+  }
 `;

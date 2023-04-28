@@ -1,5 +1,6 @@
 import { lighten } from "polished";
 import styled from "styled-components";
+import { IoMenu } from "react-icons/io5";
 
 export const Container = styled.header`
   width: 100%;
@@ -40,4 +41,11 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
         isActive ? lighten(0.3, colors.support) : lighten(0.3, colors.text)};
     }
   }
+`;
+
+export const MenuIcon = styled(IoMenu)`
+  width: 10px;
+  height: 10px;
+  stroke: ${({ theme }) => theme.colors.white};
+  fill: ${({ theme }) => theme.colors.white};
 `;

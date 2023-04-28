@@ -11,5 +11,7 @@ export const theme: DefaultTheme = {
     black: "#000000",
     background: "",
     text: "#FFFFFF",
+    white: "#FFFFFF",
+    gray: "#bfbebb",
   },
 };

@@ -12,6 +12,7 @@ export const HomeHero: React.FC = () => {
         <TextContainer>
           <h1>Hi there!</h1>
           <h2>{`I'm Lucas`}</h2>
+          <p>A mobile engineer with almost 6 years of experience</p>
         </TextContainer>
       </div>
     </Container>

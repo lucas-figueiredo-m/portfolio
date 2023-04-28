@@ -50,13 +50,41 @@ export const TextContainer = styled.section`
   width: 100%;
 
   h1 {
-    font-size: 6rem;
+    font-size: 8rem;
     color: ${({ theme }) => theme.colors.support};
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 400;
     color: ${({ theme }) => theme.colors.text};
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: ${({ theme }) => theme.colors.text};
+    text-align: right;
+    margin-top: 3rem;
+  }
+
+  @media (max-width: 1450px) {
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
   }
 `;
