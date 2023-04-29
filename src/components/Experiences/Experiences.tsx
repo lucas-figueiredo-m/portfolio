@@ -1,6 +1,7 @@
 import React from "react";
 import { ExperienceContainer } from "./styles";
 import { ExperienceItem } from "./ExperienceItem";
+import { ExperiencesType } from "@services/CmsService";
 
 const previousExperiences = [
   {
@@ -28,17 +29,22 @@ const previousExperiences = [
     description: "Lorem ipsum sit dolor amet",
   },
 ];
+type ExperiencesSectionType = {
+  experiences: ExperiencesType[];
+};
 
-export const Experiences: React.FC = () => {
+export const Experiences: React.FC<ExperiencesSectionType> = ({
+  experiences,
+}) => {
   return (
     <ExperienceContainer>
       <section>
-        {previousExperiences.map((item, index) => (
+        {experiences.map((item, index) => (
           <ExperienceItem
             key={index.toString()}
-            from={item.from}
-            to={item.to}
-            title={item.title}
+            from={item.startDate}
+            to={item.endDate}
+            title={item.company}
             description={item.description}
           />
         ))}

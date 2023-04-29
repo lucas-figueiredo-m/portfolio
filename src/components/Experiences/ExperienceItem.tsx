@@ -1,5 +1,6 @@
 import React from "react";
 import { ExperienceItemContainer } from "./styles";
+import { dateUtils } from "@utils";
 
 type ExperienceItemProps = {
   from: string;
@@ -14,10 +15,12 @@ export const ExperienceItem: React.FC<ExperienceItemProps> = ({
   title,
   description,
 }) => {
+  const fromText = dateUtils.format.yearOnly(from);
+  const toText = dateUtils.format.yearOnly(to);
   return (
     <ExperienceItemContainer>
       <div>
-        <h1>{`${from} - ${to}`}</h1>
+        <h1>{`${fromText} - ${toText}`}</h1>
         <h2>{title}</h2>
         <p>{description}</p>
       </div>

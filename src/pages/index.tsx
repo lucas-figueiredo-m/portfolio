@@ -10,20 +10,37 @@ import { Footer } from "@components/Footer";
 import { Experiences } from "@components/Experiences";
 import { TechStack } from "@components/TechStack";
 import { ContactForm } from "@components/ContactForm";
+import { Expertise } from "@components/Expertise";
+import { CmsService, ExperiencesType } from "@services/CmsService";
 
-const Home: React.FC = () => {
+type HomeProps = {
+  experiences: ExperiencesType[];
+};
+
+const Home: React.FC<HomeProps> = ({ experiences }) => {
   return (
     <HomeContainer>
       <Header />
       <main className="container">
         <HomeHero />
-        <Experiences />
+        <Experiences experiences={experiences} />
+        <Expertise />
         <TechStack />
         <ContactForm />
       </main>
       <Footer />
     </HomeContainer>
   );
+};
+
+export const getStaticProps = async () => {
+  const experiences = await CmsService.getAllExperiences();
+
+  return {
+    props: {
+      experiences,
+    },
+  };
 };
 
 export default Home;

@@ -7,13 +7,7 @@ export const ContactForm: React.FC = () => {
   return (
     <Container>
       <SectionTitle
-        title={
-          <>
-            Need my
-            <br />
-            services?
-          </>
-        }
+        title={<>Need my services?</>}
         description={
           <>
             Fill the form below
