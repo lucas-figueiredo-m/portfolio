@@ -25,6 +25,9 @@ export const ExperienceContainer = styled.section`
 `;
 
 export const ExperienceItemContainer = styled.div`
+  display: flex;
+  flex: 1;
+
   > div {
     background: ${({ theme }) => theme.colors.gradient};
     padding: 1rem;
@@ -34,6 +37,7 @@ export const ExperienceItemContainer = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    flex: 1;
 
     transition: 0.5s;
 
@@ -54,6 +58,7 @@ export const ExperienceItemContainer = styled.div`
       color: ${({ theme }) => theme.colors.text};
       font-size: 1rem;
       font-weight: 300;
+      text-align: justify;
     }
   }
 
