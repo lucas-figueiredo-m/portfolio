@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
 import { useEffect } from "react";
+import { theme } from "../styles/theme";
 
 export default function Document() {
   return (
@@ -13,6 +14,15 @@ export default function Document() {
           rel="stylesheet"
         />
         <meta charSet="utf-8" />
+        <meta name="theme-color" content={theme.colors.primary} />
+        <meta
+          name="msapplication-navbutton-color"
+          content={theme.colors.primary}
+        />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content={theme.colors.primary}
+        />
       </Head>
       <body>
         <Main />
