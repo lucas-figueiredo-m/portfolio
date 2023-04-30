@@ -2,6 +2,7 @@ import React from "react";
 import { ExperienceContainer } from "./styles";
 import { ExperienceItem } from "./ExperienceItem";
 import { ExperiencesType } from "@services/CmsService";
+import { SectionTitle } from "@components/SectionTitle";
 
 const previousExperiences = [
   {
@@ -38,6 +39,7 @@ export const Experiences: React.FC<ExperiencesSectionType> = ({
 }) => {
   return (
     <ExperienceContainer>
+      <SectionTitle title="Latest experiences" />
       <section>
         {experiences.map((item, index) => (
           <ExperienceItem
