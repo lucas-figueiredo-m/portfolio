@@ -1,29 +1,51 @@
 import React, { ReactNode } from "react";
-import { PhoneIcon, TechStackContainer, ServerIcon } from "./styles";
+import { PhoneIcon, TechStackContainer, ServerIcon, OtherIcon } from "./styles";
 import { TechStackItem } from "./TechStackItem";
 import { TechStackData } from "./Techtack.type";
 
 const techStack: TechStackData[] = [
   {
-    title: "Mobile Developer",
+    title: "Mobile",
     description: "",
     icon: <PhoneIcon />,
-    frameworks: ["React Native", "Redux", "Jotai", "etc"],
+    frameworks: [
+      "React Native",
+      "Redux",
+      "Jotai",
+      "React Hook Forms",
+      "Firebase",
+      "SwiftUI",
+    ],
     devTools: ["XCode", "Flipper", "Android Studio"],
   },
   {
-    title: "Backend Developer",
+    title: "Backend",
     description: "",
     icon: <ServerIcon />,
-    frameworks: ["React Native", "Redux", "Jotai", "etc"],
-    devTools: ["XCode", "Flipper", "Android Studio"],
+    frameworks: [
+      "Node.JS",
+      "Nest.js",
+      "PostgreSQL",
+      "GraphQL",
+      "Github Actions",
+      "MySQL",
+    ],
+    devTools: ["DBeaver", "Firebase", "Postman"],
   },
   {
-    title: "Mobile Developer",
+    title: "Other",
     description: "",
-    icon: <PhoneIcon />,
-    frameworks: ["React Native", "Redux", "Jotai", "etc"],
-    devTools: ["XCode", "Flipper", "Android Studio"],
+    icon: <OtherIcon />,
+    frameworks: [
+      "JavaScript",
+      "TypeScript",
+      "Gitlab-CI",
+      "Docker",
+      "Kubernetes",
+      "Python",
+      "Next.JS",
+    ],
+    devTools: ["Figma", "AdobeXD"],
   },
 ];
 

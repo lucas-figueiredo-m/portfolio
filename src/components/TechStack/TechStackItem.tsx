@@ -16,10 +16,10 @@ export const TechStackItem: React.FC<TechStackItemProps> = ({ tech }) => {
       <h2>{title}</h2>
       <p>{description}</p>
 
-      <h3>Frameworks:</h3>
+      <h3>Technologies:</h3>
       <p>{frameworks.join(", ")}</p>
 
-      <h3>Dev Tools:</h3>
+      <h3>Related Dev Tools:</h3>
       {devTools.map((tool, index) => (
         <p key={index.toString()}>{tool}</p>
       ))}

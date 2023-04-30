@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { IoPhonePortraitOutline, IoServer } from "react-icons/io5";
+import { BsThreeDots } from "react-icons/bs";
 
 export const TechStackContainer = styled.div`
   width: 100%;
@@ -91,6 +92,12 @@ export const PhoneIcon = styled(IoPhonePortraitOutline)`
 `;
 
 export const ServerIcon = styled(IoServer)`
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: ${({ theme }) => theme.colors.black};
+`;
+
+export const OtherIcon = styled(BsThreeDots)`
   width: 2.5rem;
   height: 2.5rem;
   fill: ${({ theme }) => theme.colors.black};
