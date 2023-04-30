@@ -3,7 +3,7 @@ import { ExpertiseItemContainer } from "./styles";
 
 type ExpertiseItemProps = {
   icon: React.ReactNode;
-  label: string;
+  label: string | React.ReactNode;
   hoverColor: string;
 };
 

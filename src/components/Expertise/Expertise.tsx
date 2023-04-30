@@ -3,8 +3,24 @@ import { Container, ExpertiseContainer } from "./styles";
 import { ExpertiseItem } from "./ExpertiseItem";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { TsIcon } from "@assets/icons";
+import { useMediaQuery } from "@hooks/useMediaQuery";
 
 export const Expertise: React.FC = () => {
+  const isSmallScreen = useMediaQuery(700);
+
+  const reactNativeLabel = () => {
+    if (isSmallScreen) {
+      return (
+        <>
+          React
+          <br />
+          Native
+        </>
+      );
+    }
+
+    return "React Native";
+  };
   return (
     <Container>
       <SectionTitle title="Expert in" />
@@ -17,7 +33,7 @@ export const Expertise: React.FC = () => {
         <ExpertiseItem
           hoverColor="rgb(130, 215, 247)"
           icon={<IoLogoReact />}
-          label="React Native"
+          label={reactNativeLabel()}
         />
         <ExpertiseItem
           hoverColor="rgb(52, 120, 198)"
