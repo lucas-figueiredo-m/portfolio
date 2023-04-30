@@ -25,6 +25,11 @@ export const Expertise: React.FC = () => {
           label="TypeScript"
         />
       </ExpertiseContainer>
+      <section>
+        <div />
+        <h2>Complete Tech Stack</h2>
+        <div />
+      </section>
     </Container>
   );
 };
