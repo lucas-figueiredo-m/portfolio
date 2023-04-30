@@ -14,11 +14,13 @@ export default function Document() {
           rel="stylesheet"
         />
         <meta charSet="utf-8" />
+        <meta name="color-scheme" content="dark" />
         <meta name="theme-color" content={theme.colors.primary} />
         <meta
           name="msapplication-navbutton-color"
           content={theme.colors.primary}
         />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
           name="apple-mobile-web-app-status-bar-style"
           content={theme.colors.primary}
