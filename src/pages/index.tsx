@@ -13,7 +13,7 @@ import { ContactForm } from "@components/ContactForm";
 import { Expertise } from "@components/Expertise";
 import { CmsService, ExperiencesType } from "@services/CmsService";
 import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import { theme } from "@styles";
 
 type HomeProps = {
@@ -23,7 +23,7 @@ type HomeProps = {
 const Home: React.FC<HomeProps> = ({ experiences }) => {
   return (
     <HomeContainer>
-      <Header />
+      {/* <Header /> */}
       <main className="container">
         <HomeHero />
         <Experiences experiences={experiences} />
