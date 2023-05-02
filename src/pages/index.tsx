@@ -1,7 +1,4 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import React, { useEffect } from "react";
+import React from "react";
 import { Header } from "@components/Header";
 
 import { HomeContainer } from "../styles/HomeStyles";
@@ -23,7 +20,7 @@ type HomeProps = {
 const Home: React.FC<HomeProps> = ({ experiences }) => {
   return (
     <HomeContainer>
-      {/* <Header /> */}
+      <Header />
       <main className="container">
         <HomeHero />
         <Experiences experiences={experiences} />
