@@ -10,6 +10,7 @@ type DefaultParams = Record<string, never>;
 
 export const ServiceUrls = {
   github: "https://api.github.com",
+  local: "/api",
 } as const;
 
 export class RestServiceClass {

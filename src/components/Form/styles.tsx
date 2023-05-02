@@ -14,7 +14,7 @@ export const FormContainer = styled.form`
     border: none;
     padding: 1rem 2.5rem;
     color: ${({ theme }) => theme.colors.white};
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.2rem;
     border-radius: 0.5rem;
     background: ${({ theme }) => theme.colors.support};
@@ -30,6 +30,18 @@ export const FormContainer = styled.form`
     }
   }
 
+  > div {
+    border: none;
+    padding: 1rem 2.5rem;
+    color: ${({ theme }) => theme.colors.white};
+    font-weight: 300;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background: ${({ theme }) => darken(0.15, theme.colors.support)};
+    transition: 0.5s;
+    width: fit-content;
+  }
+
   @media (max-width: 700px) {
     margin-top: 5rem;
     grid-template-columns: 1fr;
@@ -37,6 +49,11 @@ export const FormContainer = styled.form`
 
   @media (max-width: 450px) {
     > button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+
+    > div {
       padding: 0.8rem 1.5rem;
       font-size: 1rem;
     }

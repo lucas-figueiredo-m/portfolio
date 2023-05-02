@@ -20,6 +20,9 @@ declare module "styled-components" {
       text: string;
       white: string;
       gray: string;
+      success: string;
+      error: string;
+      warn: string;
     };
   }
 }

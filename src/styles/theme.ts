@@ -13,5 +13,8 @@ export const theme: DefaultTheme = {
     text: "#FFFFFF",
     white: "#FFFFFF",
     gray: "#bfbebb",
+    success: "#3FBF66",
+    error: "#E3372B",
+    warn: "#FFC712",
   },
 };
