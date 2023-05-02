@@ -25,8 +25,6 @@ const contactRoute = async (
 ) => {
   const { senderEmail, senderMessage, senderName } = req.body;
 
-  console.log("COntact received!");
-
   if (senderEmail === "" || senderMessage === "" || senderName === "") {
     return res.status(403).send({ message: "Fields cannot be empty!" });
   }
