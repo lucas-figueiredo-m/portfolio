@@ -1,46 +1,37 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import { useEffect } from "react";
+import { theme } from "../styles/theme";
+import { CssBaseline } from "@nextui-org/react";
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        {CssBaseline.flush()}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+        <meta charSet="utf-8" />
+        <meta name="color-scheme" content="dark" />
+        <meta name="theme-color" content={theme.colors.primary} />
+        <meta
+          name="msapplication-navbutton-color"
+          content={theme.colors.primary}
+        />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content={theme.colors.primary}
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />
       </body>
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"
-      />
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="assets/js/jquery.min.js"
-      />
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="assets/js/jquery.scrollex.min.js"
-      />
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="assets/js/jquery.scrolly.min.js"
-      />
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="assets/js/browser.min.js"
-      />
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="assets/js/breakpoints.min.js"
-      />
-      <Script async strategy="beforeInteractive" src="assets/js/util.js" />
-      <Script async strategy="beforeInteractive" src="assets/js/main.js" />
     </Html>
   );
 }
