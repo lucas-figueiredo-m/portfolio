@@ -29,16 +29,19 @@ export const Container = styled.footer`
       font-size: 1.2rem;
       font-family: "Montserrat";
     }
+
+    section {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
   }
 
-  > section {
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-  }
+  @media (max-width: 550px) {
+    > div {
+      margin: 0 2rem 0 2rem;
+    }
 
-  @media (max-width: 450px) {
     button {
       font-size: 0.9rem;
     }
@@ -46,8 +49,8 @@ export const Container = styled.footer`
 `;
 
 export const LinkedinIcon = styled(IoLogoLinkedin)`
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   cursor: pointer;
   color: ${({ theme }) => theme.colors.gray};
   transition: 0.5s;
@@ -57,13 +60,13 @@ export const LinkedinIcon = styled(IoLogoLinkedin)`
   }
 
   @media (max-width: 450px) {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 `;
 export const GithubIcon = styled(IoLogoGithub)`
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   cursor: pointer;
   color: ${({ theme }) => theme.colors.gray};
   transition: 0.5s;
@@ -74,8 +77,8 @@ export const GithubIcon = styled(IoLogoGithub)`
   }
 
   @media (max-width: 450px) {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
     margin-left: 0.5rem;
   }
 `;
