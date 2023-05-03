@@ -20,9 +20,10 @@ export const Container = styled.section`
 
     > h2 {
       color: ${({ theme }) => theme.colors.white};
+      font-size: 1.8rem;
     }
 
-    @media (max-width: 4500px) {
+    @media (max-width: 450px) {
       > h2 {
         font-size: 1.3rem;
       }
@@ -50,6 +51,7 @@ export const ExpertiseItemContainer = styled.div<ExpertiseItemContainerProps>`
     margin-top: 0.8rem;
     font-weight: 500;
     transition: 0.5s;
+    font-size: 2rem;
   }
 
   > svg {
