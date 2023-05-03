@@ -35,6 +35,7 @@ export const StyledImage = styled(Image)`
   width: 40rem;
   flex: 1;
   mask-image: linear-gradient(black 80%, transparent 90%);
+  z-index: 0;
 
   @media (max-width: 1450px) {
     width: 35rem;

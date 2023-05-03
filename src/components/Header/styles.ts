@@ -20,6 +20,7 @@ export const Container = styled.header<ContainerProps>`
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.6px);
+  z-index: 250;
   -webkit-backdrop-filter: blur(11.6px);
   /* border: 1px solid rgba(255, 255, 255, 0.3); */
 
