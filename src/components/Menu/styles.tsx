@@ -13,6 +13,14 @@ export const MenuOverlay = styled.div<MenuProps>`
   display: flex;
   flex-direction: column;
 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+
+  backdrop-filter: ${({ isOpened }) => (isOpened ? "blur(11.6px)" : "blur(0)")};
+  -webkit-backdrop-filter: ${({ isOpened }) =>
+    isOpened ? "blur(11.6px)" : "blur(0)"};
+
   transition: 1s;
 
   top: 0;
@@ -41,4 +49,8 @@ export const MenuContainer = styled.div<MenuProps>`
   width: 100%;
   height: 100%;
   background: ${({ theme }) => theme.colors.complementary};
+
+  > ul {
+    margin: 5rem 0 0 1.5rem;
+  }
 `;
