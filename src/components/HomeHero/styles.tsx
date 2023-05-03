@@ -35,6 +35,7 @@ export const StyledImage = styled(Image)`
   width: 40rem;
   flex: 1;
   mask-image: linear-gradient(black 80%, transparent 90%);
+  z-index: 0;
 
   @media (max-width: 1450px) {
     width: 35rem;
@@ -56,13 +57,14 @@ export const TextContainer = styled.section`
 
   h2 {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 500;
     color: ${({ theme }) => theme.colors.text};
   }
 
   p {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
+    font-family: "Montserrat";
     color: ${({ theme }) => theme.colors.text};
     text-align: right;
     margin-top: 3rem;
