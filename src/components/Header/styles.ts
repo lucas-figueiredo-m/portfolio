@@ -2,11 +2,16 @@ import { lighten } from "polished";
 import styled from "styled-components";
 import { IoMenu } from "react-icons/io5";
 
-export const Container = styled.header`
+type ContainerProps = {
+  isSmallScreen: boolean;
+};
+
+export const Container = styled.header<ContainerProps>`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: ${({ isSmallScreen }) =>
+    isSmallScreen ? "flex-end" : "center"};
   height: 4rem;
   border-bottom: 1pm solid ${({ theme }) => theme.colors.primary};
   position: sticky;
@@ -18,28 +23,10 @@ export const Container = styled.header`
   -webkit-backdrop-filter: blur(11.6px);
   /* border: 1px solid rgba(255, 255, 255, 0.3); */
 
-  ul {
+  > ul {
     display: flex;
     gap: 2rem;
     align-items: center;
-  }
-`;
-
-type NavLinkProps = {
-  isActive: boolean;
-};
-
-export const NavLinkContainer = styled.li<NavLinkProps>`
-  a {
-    text-transform: uppercase;
-    color: ${({ theme: { colors }, isActive }) =>
-      isActive ? colors.support : colors.text};
-    transition: 0.5s;
-
-    &:hover {
-      color: ${({ theme: { colors }, isActive }) =>
-        isActive ? lighten(0.3, colors.support) : lighten(0.3, colors.text)};
-    }
   }
 `;
 
