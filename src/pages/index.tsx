@@ -20,7 +20,7 @@ type HomeProps = {
 const Home: React.FC<HomeProps> = ({ experiences }) => {
   return (
     <HomeContainer>
-      {/* <Header /> */}
+      <Header />
       <main className="container">
         <HomeHero />
         <Experiences experiences={experiences} />

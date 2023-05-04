@@ -2,7 +2,6 @@ import React from "react";
 import { Container, StyledImage, TextContainer } from "./styles";
 
 import Selfie from "@assets/images/me.png";
-import Image from "next/image";
 
 export const HomeHero: React.FC = () => {
   return (

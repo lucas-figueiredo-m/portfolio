@@ -3,9 +3,15 @@ import {
   InMemoryCache,
   NormalizedCacheObject,
 } from "@apollo/client";
-import { GetExperiences } from "./queries";
+import { GetExperiences, GetUniqueWork, GetWorks } from "./queries";
 import { CmsProviderServiceAbstractClass } from "@services/interfaces";
-import { AllExperiencesType } from "@services/CmsService";
+import {
+  AllExperiencesType,
+  AllWorksType,
+  ExperiencesType,
+  UniqueWorkType,
+  WorksType,
+} from "@services/CmsService";
 
 export type DatoCmsApi = ApolloClient<NormalizedCacheObject>;
 
@@ -22,11 +28,27 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
     return client;
   }
 
-  async getAllExperiences() {
+  async getAllExperiences(): Promise<ExperiencesType[]> {
     const response = await this.api.query<AllExperiencesType>({
       query: GetExperiences,
     });
     return response.data.allExperiences;
+  }
+
+  async getAllWorks(): Promise<WorksType[]> {
+    const response = await this.api.query<AllWorksType>({
+      query: GetWorks,
+    });
+
+    return response.data.allWorks;
+  }
+
+  public async getUniqueWork(slug: string): Promise<WorksType> {
+    const response = await this.api.query<UniqueWorkType>({
+      query: GetUniqueWork(slug),
+    });
+
+    return response.data.work;
   }
 }
 

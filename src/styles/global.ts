@@ -13,6 +13,22 @@ export const GlobalStyles = createGlobalStyle`
     font: 400 1rem 'Montserrat', sans-serif;
   }
 
+  h1 {
+    font: 400 1rem 'Montserrat', sans-serif;
+  }
+
+  h2 {
+    font: 400 1rem 'Montserrat', sans-serif;
+  }
+
+  h3 {
+    font: 400 1rem 'Montserrat', sans-serif;
+  }
+
+  p {
+    font: 400 1rem 'Montserrat', sans-serif;
+  }
+
   img {
     width: 100%;
     max-width: 100%;

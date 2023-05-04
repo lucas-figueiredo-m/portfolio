@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const ExperienceContainer = styled.section`
   width: 100%;
+  padding-bottom: 8rem;
+  border-bottom: 3px solid ${({ theme }) => theme.colors.complementary};
 
   > section {
     width: 100%;
@@ -9,11 +11,10 @@ export const ExperienceContainer = styled.section`
     display: flex;
     gap: 1.5rem;
 
-    padding-bottom: 8rem;
-    border-bottom: 3px solid ${({ theme }) => theme.colors.complementary};
-
     @media (max-width: 1000px) {
-      gap: 1rem;
+      flex-direction: column;
+      margin-top: 5rem;
+      gap: 2rem;
     }
 
     @media (max-width: 700px) {
@@ -43,21 +44,22 @@ export const ExperienceItemContainer = styled.div`
 
     h1 {
       color: ${({ theme }) => theme.colors.support};
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 1.5rem;
+      font-weight: 600;
     }
 
     h2 {
       color: ${({ theme }) => theme.colors.text};
-      font-size: 1.5rem;
+      font-size: 2rem;
       margin-bottom: 1rem;
-      font-weight: 300;
+      font-weight: 500;
     }
 
     p {
       color: ${({ theme }) => theme.colors.text};
-      font-size: 1rem;
-      font-weight: 300;
+      font-size: 1.2rem;
+      font-weight: 400;
       text-align: justify;
     }
   }
@@ -71,7 +73,7 @@ export const ExperienceItemContainer = styled.div`
     margin-top: 4rem;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 700px) {
     > div {
       height: 15rem;
       padding-top: 1.5rem;
@@ -105,15 +107,15 @@ export const ExperienceItemContainer = styled.div`
       padding: 2rem;
 
       h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
       }
 
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
       }
 
       p {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
     }
   }

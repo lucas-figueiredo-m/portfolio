@@ -1,29 +1,48 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Head from "next/head";
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import React, { useEffect } from "react";
+import React from "react";
 import { Header } from "@components/Header";
 
-import { HomeContainer } from "../../styles/HomeStyles";
-import { HomeHero } from "@components/HomeHero";
-import { IoLogoNodejs, IoLogoReact, IoLogoGithub } from "react-icons/io5";
+import { WorkContainer, WorkContent } from "@styles";
+import { WorkItem } from "@components/WorkItem";
+import { CmsService, WorksType } from "@services/CmsService";
+import { Footer } from "@components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const imgUrl =
+  "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
-const WorkPage: React.FC = () => {
+type WorkPageProps = {
+  works: WorksType[];
+};
+
+const WorkPage: React.FC<WorkPageProps> = ({ works }) => {
   return (
-    <HomeContainer>
+    <WorkContainer>
       <Header />
-      <div>
-        <IoLogoNodejs style={{ width: 200, height: 200, color: "green" }} />
-        <IoLogoReact style={{ width: 200, height: 200, color: "blue" }} />
-        <IoLogoGithub style={{ width: 200, height: 200, color: "gray" }} />
-      </div>
-    </HomeContainer>
+      <main className="container">
+        <WorkContent>
+          {works.map((work, index) => (
+            <WorkItem
+              key={index}
+              title={work.company}
+              type={work.jobType}
+              imgUrl={work.coverImage.url}
+              slug={work.slug}
+            />
+          ))}
+        </WorkContent>
+      </main>
+      <Footer />
+    </WorkContainer>
   );
+};
+
+export const getStaticProps = async () => {
+  const works = await CmsService.getAllWorks();
+
+  return {
+    props: {
+      works,
+    },
+  };
 };
 
 export default WorkPage;
