@@ -42,22 +42,13 @@ export const Header: React.FC<HeaderProps> = () => {
           <Menu onOverlayPress={onCloseDrawer} isOpened={isOpened} />
         </>
       ) : (
-        // <ul>
-        //   <NavLink url="/" label="Home" />
-        //   <NavLink url="/work" label="Work" />
-        //   <NavLink url="/projects" label="Projects" />
-        //   <NavLink url="/blog" label="Blog" />
-        //   <NavLink url="/courses" label="Courses" />
-        // </ul>
-        <>
-          <ul>
-            <NavigationLink url="/" label="Home" />
-            <NavigationLink url="/work" label="Work" />
-            <NavigationLink url="/projects" label="Projects" />
-            <NavigationLink url="/blog" label="Blog" />
-            <NavigationLink url="/courses" label="Courses" />
-          </ul>
-        </>
+        <ul>
+          <NavigationLink url="/" label="Home" />
+          <NavigationLink url="/work" label="Work" includes />
+          {/* <NavigationLink url="/projects" label="Projects" includes />
+          <NavigationLink url="/blog" label="Blog" includes />
+          <NavigationLink url="/courses" label="Courses" includes /> */}
+        </ul>
       )}
     </Container>
   );
