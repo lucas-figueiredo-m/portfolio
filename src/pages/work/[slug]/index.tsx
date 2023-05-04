@@ -1,5 +1,5 @@
 import React from "react";
-import { WorkDetailContent, WorkDetailsContainer } from "./styles";
+import { WorkDetailContent, WorkDetailsContainer } from "@styles";
 import { Header } from "@components/Header";
 import { WorkDetailItem } from "@components/WorkDetail";
 import { GetServerSideProps } from "next";
