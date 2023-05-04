@@ -1,4 +1,4 @@
-import { darken } from "polished";
+import { darken, lighten } from "polished";
 import styled from "styled-components";
 
 type WorkContainerProps = {
@@ -19,7 +19,15 @@ export const WorkItemContainer = styled.section<WorkContainerProps>`
       }
 
       > div.overlay {
-        opacity: 0.4;
+        opacity: 0.2;
+      }
+
+      h1 {
+        color: ${({ theme }) => lighten(0.3, theme.colors.support)};
+      }
+
+      h2 {
+        color: ${({ theme }) => lighten(0.3, theme.colors.support)};
       }
     }
 
@@ -49,7 +57,7 @@ export const WorkItemContainer = styled.section<WorkContainerProps>`
     width: 50rem;
     height: 100%;
     background: url(${({ imgUrl }) => imgUrl});
-    background-position: right 0 bottom -1.2rem;
+    background-position: right 0 bottom -4rem;
     /* object-position: 20% 70%; */
     background-repeat: no-repeat;
     background-size: 100%;
@@ -61,7 +69,7 @@ export const WorkItemContainer = styled.section<WorkContainerProps>`
       width: 100%;
       height: 100%;
       background: ${({ theme }) => theme.colors.black};
-      opacity: 0.7;
+      opacity: 0.4;
       transition: 0.5s;
       border-radius: 0.5rem;
     }
@@ -75,17 +83,19 @@ export const WorkItemContainer = styled.section<WorkContainerProps>`
     }
 
     h1 {
-      color: ${({ theme }) => theme.colors.support};
+      color: ${({ theme }) => theme.colors.white};
       font-size: 2.5rem;
       text-shadow: -4px 5px 22px #11172b;
+      transition: 0.5s;
     }
 
     h2 {
-      color: ${({ theme }) => `${darken(0.2, theme.colors.support)}`};
+      color: ${({ theme }) => `${darken(0.2, theme.colors.white)}`};
       font-size: 2rem;
       font-weight: 300;
       text-shadow: -4px 5px 22px #11172b;
       text-transform: capitalize;
+      transition: 0.5s;
     }
   }
 
