@@ -57,7 +57,7 @@ export const WorkItemContainer = styled.section<WorkContainerProps>`
     width: 50rem;
     height: 100%;
     background: url(${({ imgUrl }) => imgUrl});
-    background-position: right 0 bottom -4rem;
+    background-position: right 0 bottom -1.2rem;
     /* object-position: 20% 70%; */
     background-repeat: no-repeat;
     background-size: 100%;
