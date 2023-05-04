@@ -4,6 +4,7 @@ import { Header } from "@components/Header";
 import { WorkContainer, WorkContent } from "@styles";
 import { WorkItem } from "@components/WorkItem";
 import { CmsService, WorksType } from "@services/CmsService";
+import { Footer } from "@components/Footer";
 
 const imgUrl =
   "https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
@@ -21,41 +22,21 @@ const WorkPage: React.FC<WorkPageProps> = ({ works }) => {
           {works.map((work, index) => (
             <WorkItem
               key={index}
-              title={work.title}
-              type={work.type}
-              imgUrl={work.imgUrl}
+              title={work.company}
+              type={work.jobType}
+              imgUrl={work.coverImage.url}
               slug={work.slug}
             />
           ))}
         </WorkContent>
       </main>
+      <Footer />
     </WorkContainer>
   );
 };
 
 export const getStaticProps = async () => {
-  const experiences = await CmsService.getAllExperiences();
-
-  const works: WorksType[] = [
-    {
-      title: "Jobble",
-      type: "Mobile",
-      slug: "jobble",
-      imgUrl,
-    },
-    {
-      title: "Jobble",
-      type: "Mobile",
-      slug: "jobble",
-      imgUrl,
-    },
-    {
-      title: "Jobble",
-      type: "Mobile",
-      slug: "jobble",
-      imgUrl,
-    },
-  ];
+  const works = await CmsService.getAllWorks();
 
   return {
     props: {

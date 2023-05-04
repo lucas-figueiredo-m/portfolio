@@ -6,12 +6,23 @@ import { useRouter } from "next/router";
 type NavLinkProps = {
   url: string;
   label: string;
+  includes?: boolean;
 };
 
-export const NavigationLink: React.FC<NavLinkProps> = ({ url, label }) => {
+export const NavigationLink: React.FC<NavLinkProps> = ({
+  url,
+  label,
+  includes = false,
+}) => {
   const router = useRouter();
 
-  const isActive = router.pathname === url;
+  const verifyIfIsActive = () => {
+    if (includes) return router.pathname.includes(url);
+
+    return router.pathname === url;
+  };
+
+  const isActive = verifyIfIsActive();
 
   return (
     <NavigationLinkContainer isActive={isActive}>

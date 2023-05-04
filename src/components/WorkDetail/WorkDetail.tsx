@@ -13,10 +13,10 @@ export const WorkDetailItem: React.FC<WorkDetailItemProps> = ({
 }) => {
   return (
     <Container>
-      <div>
+      <div className="image">
         <Image
           src={imgUrl}
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "contain" }}
           fill
           alt="work_pic_1"
         />
