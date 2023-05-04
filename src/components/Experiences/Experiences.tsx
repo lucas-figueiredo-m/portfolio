@@ -41,9 +41,9 @@ export const Experiences: React.FC<ExperiencesSectionType> = ({
     <ExperienceContainer>
       <SectionTitle title="Latest experiences" />
       <section>
-        {experiences.map((item, index) => (
+        {experiences.map((item) => (
           <ExperienceItem
-            key={index.toString()}
+            key={item.id}
             from={item.startDate}
             to={item.endDate}
             title={item.company}

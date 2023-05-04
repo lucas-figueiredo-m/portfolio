@@ -1,4 +1,5 @@
 export type ExperiencesType = {
+  id: string;
   company: string;
   startDate: string;
   endDate: string;
@@ -10,12 +11,28 @@ export type AllExperiencesType = {
 };
 
 export type WorksType = {
-  title: string;
-  type: string;
+  id: string;
+  company: string;
+  jobType: string;
+  role: string;
   slug: string;
-  imgUrl: string;
+  responsability: string;
+  description: string;
+  coverImage: {
+    url: string;
+  };
+  topImage: {
+    url: string;
+  };
+  bottomImage: {
+    url: string;
+  };
 };
 
 export type AllWorksType = {
   allWorks: WorksType[];
+};
+
+export type UniqueWorkType = {
+  work: WorksType;
 };

@@ -9,6 +9,18 @@ const nextConfig = {
         port: "",
         // pathname: '/account123/**',
       },
+      {
+        protocol: "https",
+        hostname: "datocms-assets.com",
+        port: "",
+        // pathname: '/account123/**',
+      },
+      {
+        protocol: "https",
+        hostname: "www.datocms-assets.com",
+        port: "",
+        // pathname: '/account123/**',
+      },
     ],
   },
   webpack(config) {
