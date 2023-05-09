@@ -2,24 +2,21 @@ import React from "react";
 import { Header } from "@components/Header";
 
 import { Footer } from "@components/Footer";
-import {
-  ProjectItem,
-  ProjectsContainer,
-  ProjectsContent,
-} from "@components/Projects";
+import { ProjectItem, ProjectsContainer } from "@components/Projects";
+
+const imgUrl =
+  "https://www.datocms-assets.com/99299/1683239140-seuvale_cover.png";
 
 const ProjectsPage: React.FC = () => {
   return (
     <ProjectsContainer>
       <Header />
       <main className="container">
-        <ProjectsContent>
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-        </ProjectsContent>
+        <ProjectItem title="Foo" slug="foo" imgUrl={imgUrl} type="mobile" />
+        <ProjectItem title="Foo" slug="foo" imgUrl={imgUrl} type="mobile" />
+        <ProjectItem title="Foo" slug="foo" imgUrl={imgUrl} type="mobile" />
+        <ProjectItem title="Foo" slug="foo" imgUrl={imgUrl} type="mobile" />
+        <ProjectItem title="Foo" slug="foo" imgUrl={imgUrl} type="mobile" />
       </main>
       <Footer />
     </ProjectsContainer>
