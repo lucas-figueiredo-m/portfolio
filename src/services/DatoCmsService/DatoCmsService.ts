@@ -3,10 +3,17 @@ import {
   InMemoryCache,
   NormalizedCacheObject,
 } from "@apollo/client";
-import { GetExperiences, GetUniqueWork, GetWorks } from "./queries";
+import {
+  GetAllProjects,
+  GetExperiences,
+  GetUniqueWork,
+  GetWorks,
+} from "./queries";
 import { CmsProviderServiceAbstractClass } from "@services/interfaces";
 import {
   AllExperiencesType,
+  AllProjects,
+  AllProjectsType,
   AllWorksType,
   ExperiencesType,
   UniqueWorkType,
@@ -49,6 +56,14 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
     });
 
     return response.data.work;
+  }
+
+  public async getAllProjects(): Promise<AllProjects[]> {
+    const response = await this.api.query<AllProjectsType>({
+      query: GetAllProjects,
+    });
+
+    return response.data.allProjects;
   }
 }
 

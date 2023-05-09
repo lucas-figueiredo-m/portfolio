@@ -1,10 +1,11 @@
 import React from "react";
 import { ProjectItemContainer } from "./projects.styled";
 import Link from "next/link";
+import { ProjectTypesType } from "@services/CmsService";
 
 type ProjectItemProps = {
   title: string;
-  type: string;
+  type: ProjectTypesType;
   imgUrl: string;
   slug: string;
 };

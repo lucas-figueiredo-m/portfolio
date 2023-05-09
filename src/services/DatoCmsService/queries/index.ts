@@ -56,3 +56,17 @@ export const GetUniqueWork = (workSlug: string) => gql`
     }
   }
 `;
+
+export const GetAllProjects = gql`
+  query {
+    allProjects {
+      id
+      title
+      slug
+      coverImage {
+        url
+      }
+      projectType
+    }
+  }
+`;

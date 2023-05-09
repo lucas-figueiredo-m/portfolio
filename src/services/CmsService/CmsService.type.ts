@@ -1,3 +1,6 @@
+import { ObjectValues } from "@types";
+import { ProjectTypes } from "./CmsService.const";
+
 export type ExperiencesType = {
   id: string;
   company: string;
@@ -35,4 +38,20 @@ export type AllWorksType = {
 
 export type UniqueWorkType = {
   work: WorksType;
+};
+
+export type ProjectTypesType = ObjectValues<typeof ProjectTypes>;
+
+export type AllProjects = {
+  id: string;
+  title: string;
+  slug: string;
+  coverImage: {
+    url: string;
+  };
+  projectType: ProjectTypesType;
+};
+
+export type AllProjectsType = {
+  allProjects: AllProjects[];
 };
