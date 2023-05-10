@@ -83,7 +83,6 @@ export const GetUniqueProject = (projectSlug: string) => gql`
       language
       description
       frameworks
-      stateManagement
       packages
       github
       url

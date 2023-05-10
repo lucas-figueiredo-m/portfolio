@@ -1,9 +1,10 @@
 import { GetServerSideProps } from "next";
 import { CmsService, ProjectType } from "@services/CmsService";
 import React from "react";
-import { ProjectDetailContainer } from "@components/ProjectDetail";
+import { Banner, ProjectDetailContainer } from "@components/ProjectDetail";
 import { Header } from "@components/Header";
 import { Footer } from "@components/Footer";
+import { LanguageLogos } from "@components/LanguageLogos";
 
 type ProjectDetailsType = {
   project: ProjectType;
@@ -13,9 +14,12 @@ const ProjectDetailsPage: React.FC<ProjectDetailsType> = ({ project }) => {
   return (
     <ProjectDetailContainer>
       <Header />
-      <main className="container">
-        <div />
-      </main>
+      <Banner
+        imgSrc={project.coverImage.url}
+        language={project.language}
+        frameworks={project.frameworks}
+      />
+      <main className="container"></main>
       <Footer />
     </ProjectDetailContainer>
   );

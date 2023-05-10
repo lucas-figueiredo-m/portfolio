@@ -1,10 +1,5 @@
 import { ObjectValues } from "@types";
-import {
-  Frameworks,
-  Languages,
-  ProjectTypes,
-  StateManagement,
-} from "./CmsService.const";
+import { Frameworks, Languages, ProjectTypes } from "./CmsService.const";
 
 export type ExperiencesType = {
   id: string;
@@ -52,7 +47,6 @@ export type UniqueProjectType = {
 export type ProjectTypesType = ObjectValues<typeof ProjectTypes>;
 export type LanguageTypes = ObjectValues<typeof Languages>;
 export type FrameworkTypes = ObjectValues<typeof Frameworks>;
-export type StateManagementTypes = ObjectValues<typeof StateManagement>;
 
 export type AllProjects = {
   id: string;
@@ -78,7 +72,6 @@ export type ProjectType = {
   language: LanguageTypes;
   description: string;
   frameworks: FrameworkTypes[];
-  stateManagement?: StateManagementTypes;
   packages?: string[];
   github: string;
   url?: string;

@@ -22,11 +22,3 @@ export const Frameworks = {
   NestJS: "NestJS",
   "React Native": "React Native",
 } as const;
-
-export const StateManagement = {
-  Redux: "Redux",
-  Recoil: "Recoil",
-  Jotai: "Jotai",
-  Zustand: "Zustand",
-  ContextAPI: "ContextAPI",
-} as const;
