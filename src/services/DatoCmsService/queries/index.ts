@@ -70,3 +70,25 @@ export const GetAllProjects = gql`
     }
   }
 `;
+
+export const GetUniqueProject = (projectSlug: string) => gql`
+  query {
+    project(filter: { slug: { eq: "${projectSlug}" }}) {
+      id
+      title
+      coverImage {
+        url
+      }
+      projectType
+      language
+      description
+      frameworks
+      stateManagement
+      packages
+      github
+      url
+      appStoreUrl
+      playStoreUrl
+    }
+  }
+`;

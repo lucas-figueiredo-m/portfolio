@@ -1,5 +1,10 @@
 import { ObjectValues } from "@types";
-import { ProjectTypes } from "./CmsService.const";
+import {
+  Frameworks,
+  Languages,
+  ProjectTypes,
+  StateManagement,
+} from "./CmsService.const";
 
 export type ExperiencesType = {
   id: string;
@@ -40,7 +45,14 @@ export type UniqueWorkType = {
   work: WorksType;
 };
 
+export type UniqueProjectType = {
+  project: ProjectType;
+};
+
 export type ProjectTypesType = ObjectValues<typeof ProjectTypes>;
+export type LanguageTypes = ObjectValues<typeof Languages>;
+export type FrameworkTypes = ObjectValues<typeof Frameworks>;
+export type StateManagementTypes = ObjectValues<typeof StateManagement>;
 
 export type AllProjects = {
   id: string;
@@ -54,4 +66,22 @@ export type AllProjects = {
 
 export type AllProjectsType = {
   allProjects: AllProjects[];
+};
+
+export type ProjectType = {
+  id: string;
+  title: string;
+  coverImage: {
+    url: string;
+  };
+  projectType: ProjectTypesType;
+  language: LanguageTypes;
+  description: string;
+  frameworks: FrameworkTypes[];
+  stateManagement?: StateManagementTypes;
+  packages?: string[];
+  github: string;
+  url?: string;
+  appStoreUrl?: string;
+  playStoreUrl?: string;
 };

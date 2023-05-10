@@ -6,6 +6,7 @@ import {
 import {
   GetAllProjects,
   GetExperiences,
+  GetUniqueProject,
   GetUniqueWork,
   GetWorks,
 } from "./queries";
@@ -16,6 +17,8 @@ import {
   AllProjectsType,
   AllWorksType,
   ExperiencesType,
+  ProjectType,
+  UniqueProjectType,
   UniqueWorkType,
   WorksType,
 } from "@services/CmsService";
@@ -64,6 +67,14 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
     });
 
     return response.data.allProjects;
+  }
+
+  public async getUniqueProject(slug: string): Promise<ProjectType> {
+    const response = await this.api.query<UniqueProjectType>({
+      query: GetUniqueProject(slug),
+    });
+
+    return response.data.project;
   }
 }
 

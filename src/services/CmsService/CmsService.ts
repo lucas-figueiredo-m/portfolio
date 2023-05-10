@@ -3,7 +3,12 @@ import {
   CmsProviderServiceAbstractClass,
   CmsServiceAbstractClass,
 } from "@services/interfaces";
-import { AllProjects, ExperiencesType, WorksType } from "./CmsService.type";
+import {
+  AllProjects,
+  ExperiencesType,
+  ProjectType,
+  WorksType,
+} from "./CmsService.type";
 
 class CmsServiceClass extends CmsServiceAbstractClass<DatoCmsApi> {
   constructor(private cmsService: CmsProviderServiceAbstractClass<DatoCmsApi>) {
@@ -24,6 +29,10 @@ class CmsServiceClass extends CmsServiceAbstractClass<DatoCmsApi> {
 
   public async getAllProjects(): Promise<AllProjects[]> {
     return this.cmsService.getAllProjects();
+  }
+
+  public getUniqueProject(slug: string): Promise<ProjectType> {
+    return this.cmsService.getUniqueProject(slug);
   }
 }
 
