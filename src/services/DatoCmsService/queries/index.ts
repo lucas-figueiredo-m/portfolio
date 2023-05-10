@@ -59,7 +59,7 @@ export const GetUniqueWork = (workSlug: string) => gql`
 
 export const GetAllProjects = gql`
   query {
-    allProjects {
+    allProjects(filter: { isDraftMode: { eq: false } }) {
       id
       title
       slug
