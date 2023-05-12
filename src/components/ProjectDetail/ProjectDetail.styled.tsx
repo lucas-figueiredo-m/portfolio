@@ -20,6 +20,12 @@ export const BannerContainer = styled.section`
     font-weight: 600;
     text-align: center;
   }
+
+  @media (max-width: 700px) {
+    > h1 {
+      font-size: 1.8rem;
+    }
+  }
 `;
 
 type BannerContainerProps = {
@@ -35,6 +41,13 @@ export const BannerImage = styled.div<BannerContainerProps>`
   position: relative;
   background-position-y: center;
   mask-image: linear-gradient(black 30%, transparent 90%);
+
+  @media (max-width: 1000px) {
+    height: 20rem;
+  }
+  @media (max-width: 700px) {
+    height: 10rem;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -42,6 +55,12 @@ export const LogoContainer = styled.div`
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
 `;
 
 export const FrameworkContentContainer = styled.div`
@@ -65,6 +84,23 @@ export const FrameworkContentContainer = styled.div`
     font-size: 1.5rem;
     font-weight: 500;
   }
+
+  @media (max-width: 700px) {
+    gap: 1rem;
+
+    div {
+      gap: 1rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
 `;
 export const LanguageContentContainer = styled.div`
   display: flex;
@@ -80,6 +116,23 @@ export const LanguageContentContainer = styled.div`
   h2 {
     font-size: 1.5rem;
     font-weight: 500;
+  }
+
+  @media (max-width: 700px) {
+    gap: 1rem;
+
+    div {
+      gap: 1rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -101,6 +154,18 @@ export const ProjectDetailContent = styled.div`
     font-size: 1rem;
     font-weight: 500;
   }
+
+  @media (max-width: 700px) {
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-top: 1.1rem;
+    }
+  }
 `;
 
 export const ColumnPackages = styled.div`
@@ -110,13 +175,26 @@ export const ColumnPackages = styled.div`
   }
 
   li {
-    padding-left: 1rem;
     font-size: 1.5rem;
   }
 
   li:before {
     content: "\u2705";
     padding-right: 1rem;
+  }
+
+  @media (max-width: 700px) {
+    ul {
+      column-count: 1;
+    }
+
+    li {
+      font-size: 1rem;
+    }
+
+    li:before {
+      padding-right: 0.5rem;
+    }
   }
 `;
 
@@ -126,4 +204,9 @@ export const BagdesContainer = styled.div`
   align-items: center;
 
   gap: 1rem;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
