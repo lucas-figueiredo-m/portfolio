@@ -7,7 +7,7 @@
 
 <img src="https://www.datocms-assets.com/99299/1683921446-captura-de-tela-2023-05-08-as-22-03-41-2.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> This is a personal webpage I develop for myself so I could present some of the work I did in the past, demonstrate the skills I have and also post content on as tech blog
 
 ### Fixes and future releases
 
@@ -26,6 +26,8 @@ Before starting, make sure you have the following requirements:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * You have PC runnning a macOS, Linux or Windows.
 * You have Node.js installed on version 14.18.0 or higher
+
+> Tip: run `node -v` on your terminal to check your Node version
 
 ## 🚀 Running the project (all OS)
 
