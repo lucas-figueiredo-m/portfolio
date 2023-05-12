@@ -9,6 +9,9 @@ import NestJSIcon from "./NestJS.svg";
 import SwiftUIIcon from "./swiftui.svg";
 import ExpressIcon from "./express.svg";
 
+import AppStoreBadge from "./app_store_badge.svg";
+import PlayStoreBadge from "./play_store_badge.svg";
+
 export {
   TsIcon,
   SwiftIcon,
@@ -19,4 +22,6 @@ export {
   NestJSIcon,
   SwiftUIIcon,
   ExpressIcon,
+  PlayStoreBadge,
+  AppStoreBadge,
 };

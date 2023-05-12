@@ -88,6 +88,8 @@ export const GetUniqueProject = (projectSlug: string) => gql`
       url
       appStoreUrl
       playStoreUrl
+      isPublic
+      reproduce
     }
   }
 `;

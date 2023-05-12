@@ -73,8 +73,10 @@ export type ProjectType = {
   description: string;
   frameworks: FrameworkTypes[];
   packages?: string[];
-  github: string;
+  github?: string;
   url?: string;
   appStoreUrl?: string;
   playStoreUrl?: string;
+  isPublic?: boolean;
+  reproduce?: string;
 };

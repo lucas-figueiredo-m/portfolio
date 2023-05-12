@@ -13,6 +13,15 @@ export const ProjectDetailContainer = styled.div`
   }
 `;
 
+export const BannerContainer = styled.section`
+  > h1 {
+    margin: 0rem 0 4rem 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+`;
+
 type BannerContainerProps = {
   imgSrc: string;
 };
@@ -72,4 +81,49 @@ export const LanguageContentContainer = styled.div`
     font-size: 1.5rem;
     font-weight: 500;
   }
+`;
+
+export const ProjectDetailContent = styled.div`
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 1.5rem;
+  }
+
+  > ol > li {
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+`;
+
+export const ColumnPackages = styled.div`
+  ul {
+    column-count: 2;
+    margin-top: 1.5rem;
+  }
+
+  li {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+
+  li:before {
+    content: "\u2705";
+    padding-right: 1rem;
+  }
+`;
+
+export const BagdesContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 1rem;
 `;
