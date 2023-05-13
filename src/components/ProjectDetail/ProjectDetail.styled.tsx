@@ -210,3 +210,19 @@ export const BagdesContainer = styled.div`
     align-items: center;
   }
 `;
+
+export const FutureReleasesContent = styled.div`
+  ul {
+    list-style: inside;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 700px) {
+    li {
+      font-size: 1rem;
+    }
+  }
+`;

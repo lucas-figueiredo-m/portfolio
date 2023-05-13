@@ -24,8 +24,9 @@ This project is still under development and next updates will target the followi
 Before starting, make sure you have the following requirements:
 
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* You have PC runnning a macOS, Linux or Windows.
-* You have Node.js installed on version 14.18.0 or higher
+
+- You have PC runnning a macOS, Linux or Windows.
+- You have Node.js installed on version 14.18.0 or higher
 
 > Tip: run `node -v` on your terminal to check your Node version
 
@@ -45,6 +46,7 @@ Before starting, make sure you have the following requirements:
 12. Open a browser and access the project on http://localhost:3000
 
 ## ‼️ Troubleshooting
+
 If the browser don't display the project, check the terminal to see if the project started on a different port. Port 3000 is the default for NextJS applications.
 
 Any other errors, please report an issue
@@ -53,4 +55,4 @@ Any other errors, please report an issue
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Back to top](#-portfolio)<br>

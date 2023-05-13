@@ -78,5 +78,5 @@ export type ProjectType = {
   appStoreUrl?: string;
   playStoreUrl?: string;
   isPublic?: boolean;
-  reproduce?: string;
+  futureReleases?: string;
 };
