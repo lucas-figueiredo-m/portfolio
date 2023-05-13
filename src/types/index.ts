@@ -5,3 +5,7 @@ export type ContactFormType = {
   senderEmail: string;
   senderMessage: string;
 };
+
+export type LogoObject<T extends string> = {
+  [key in T]: React.ReactElement;
+};

@@ -56,3 +56,40 @@ export const GetUniqueWork = (workSlug: string) => gql`
     }
   }
 `;
+
+export const GetAllProjects = gql`
+  query {
+    allProjects(filter: { isDraftMode: { eq: false } }) {
+      id
+      title
+      slug
+      coverImage {
+        url
+      }
+      projectType
+    }
+  }
+`;
+
+export const GetUniqueProject = (projectSlug: string) => gql`
+  query {
+    project(filter: { slug: { eq: "${projectSlug}" }}) {
+      id
+      title
+      coverImage {
+        url
+      }
+      projectType
+      language
+      description
+      frameworks
+      packages
+      github
+      url
+      appStoreUrl
+      playStoreUrl
+      isPublic
+      futureReleases
+    }
+  }
+`;
