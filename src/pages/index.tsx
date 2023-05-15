@@ -12,6 +12,7 @@ import { CmsService, ExperiencesType } from "@services/CmsService";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import { theme } from "@styles";
+import { GetStaticProps } from "next";
 
 type HomeProps = {
   experiences: ExperiencesType[];
@@ -40,13 +41,14 @@ const Home: React.FC<HomeProps> = ({ experiences }) => {
   );
 };
 
-export const getStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
   const experiences = await CmsService.getAllExperiences();
 
   return {
     props: {
       experiences,
     },
+    revalidate: 60 * 60 * 12,
   };
 };
 
