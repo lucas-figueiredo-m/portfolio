@@ -82,6 +82,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     props: {
       project,
     },
+    revalidate: 60 * 60 * 12,
   };
 };
 
