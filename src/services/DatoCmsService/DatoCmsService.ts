@@ -4,20 +4,26 @@ import {
   NormalizedCacheObject,
 } from "@apollo/client";
 import {
+  GetAllBlogPosts,
   GetAllProjects,
   GetExperiences,
+  GetUniqueBlogPost,
   GetUniqueProject,
   GetUniqueWork,
   GetWorks,
 } from "./queries";
 import { CmsProviderServiceAbstractClass } from "@services/interfaces";
 import {
+  AllBlogPosts,
+  AllBlogPostsType,
   AllExperiencesType,
   AllProjects,
   AllProjectsType,
   AllWorksType,
+  BlogPostType,
   ExperiencesType,
   ProjectType,
+  UniqueBlogPostType,
   UniqueProjectType,
   UniqueWorkType,
   WorksType,
@@ -75,6 +81,22 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
     });
 
     return response.data.project;
+  }
+
+  public async getAllBlogPosts(): Promise<AllBlogPosts[]> {
+    const response = await this.api.query<AllBlogPostsType>({
+      query: GetAllBlogPosts,
+    });
+
+    return response.data.allBlogs;
+  }
+
+  public async getUniqueBlogPost(slug: string): Promise<BlogPostType> {
+    const response = await this.api.query<UniqueBlogPostType>({
+      query: GetUniqueBlogPost(slug),
+    });
+
+    return response.data.blog;
   }
 }
 

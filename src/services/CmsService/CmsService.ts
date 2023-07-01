@@ -4,7 +4,9 @@ import {
   CmsServiceAbstractClass,
 } from "@services/interfaces";
 import {
+  AllBlogPosts,
   AllProjects,
+  BlogPostType,
   ExperiencesType,
   ProjectType,
   WorksType,
@@ -33,6 +35,14 @@ class CmsServiceClass extends CmsServiceAbstractClass<DatoCmsApi> {
 
   public getUniqueProject(slug: string): Promise<ProjectType> {
     return this.cmsService.getUniqueProject(slug);
+  }
+
+  public getAllBlogPosts(): Promise<AllBlogPosts[]> {
+    return this.cmsService.getAllBlogPosts();
+  }
+
+  public getUniqueBlogPost(slug: string): Promise<BlogPostType> {
+    return this.cmsService.getUniqueBlogPost(slug);
   }
 }
 

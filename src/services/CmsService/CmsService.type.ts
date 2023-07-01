@@ -44,6 +44,10 @@ export type UniqueProjectType = {
   project: ProjectType;
 };
 
+export type UniqueBlogPostType = {
+  blog: BlogPostType;
+};
+
 export type ProjectTypesType = ObjectValues<typeof ProjectTypes>;
 export type LanguageTypes = ObjectValues<typeof Languages>;
 export type FrameworkTypes = ObjectValues<typeof Frameworks>;
@@ -79,4 +83,31 @@ export type ProjectType = {
   playStoreUrl?: string;
   isPublic?: boolean;
   futureReleases?: string;
+};
+
+export type BlogPostType = {
+  id: string;
+  title: string;
+  headline: string;
+  content: string;
+  coverImage: {
+    url: string;
+  };
+  _updatedAt: string;
+};
+
+export type AllBlogPosts = {
+  id: string;
+  title: string;
+  headline: string;
+  slug: string;
+  isDraftMode: boolean;
+  coverImage: {
+    url: string;
+  };
+  _updatedAt: string;
+};
+
+export type AllBlogPostsType = {
+  allBlogs: AllBlogPosts[];
 };

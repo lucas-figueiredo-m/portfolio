@@ -93,3 +93,33 @@ export const GetUniqueProject = (projectSlug: string) => gql`
     }
   }
 `;
+
+export const GetAllBlogPosts = gql`
+  query {
+    allBlogs(filter: { isDraftMode: { eq: false } }) {
+      id
+      title
+      headline
+      slug
+      coverImage {
+        url
+      }
+      _updatedAt
+    }
+  }
+`;
+
+export const GetUniqueBlogPost = (blogPostSlug: string) => gql`
+  query {
+    blog(filter: { slug: { eq: "${blogPostSlug}" }}) {
+      id
+      title
+      headline
+      content
+      coverImage {
+        url
+      }
+      _updatedAt
+    }
+  }
+`;
