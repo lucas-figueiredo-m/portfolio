@@ -46,8 +46,8 @@ export const Header: React.FC<HeaderProps> = () => {
           <NavigationLink url="/" label="Home" />
           <NavigationLink url="/work" label="Work" includes />
           <NavigationLink url="/projects" label="Projects" includes />
-          {/* <NavigationLink url="/blog" label="Blog" includes />
-          <NavigationLink url="/courses" label="Courses" includes /> */}
+          <NavigationLink url="/blog" label="Blog" includes />
+          {/* <NavigationLink url="/courses" label="Courses" includes /> */}
         </ul>
       )}
     </Container>
