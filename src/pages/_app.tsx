@@ -6,6 +6,7 @@ import { NextUIProvider, createTheme } from "@nextui-org/react";
 import { useRouter } from "next/router";
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
+import "prismjs/themes/prism-tomorrow.css";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_APIKEY,

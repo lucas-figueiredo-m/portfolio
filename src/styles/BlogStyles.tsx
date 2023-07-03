@@ -7,8 +7,8 @@ export const BlogContainer = styled.div`
   height: 100%;
 
   > main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
   }
 `;

@@ -27,6 +27,7 @@ export default function Document() {
           name="apple-mobile-web-app-status-bar-style"
           content={theme.colors.primary}
         />
+        <Script src="./prism.js" />
       </Head>
       <body>
         <Main />
