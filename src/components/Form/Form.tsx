@@ -44,13 +44,13 @@ export const Form: React.FC = () => {
   const onSubmit: SubmitHandler<ContactFormType> = async (data) => {
     if (!data.senderName || data.senderName === "") {
       return toast(<ErrorToast label="Please, fill your name" />, {
-        progressStyle: { backgroundColor: "#E3372B" },
+        progressClassName: "!bg-[#E3372B]",
       });
     }
 
     if (!data.senderEmail || !isEmail(data.senderEmail)) {
       return toast(<ErrorToast label="Please, use a valid e-mail" />, {
-        progressStyle: { backgroundColor: "#E3372B" },
+        progressClassName: "!bg-[#E3372B]",
       });
     }
 
@@ -62,7 +62,7 @@ export const Form: React.FC = () => {
       return toast(
         <ErrorToast label="Please, write a message between 20 and 2000 characters long." />,
         {
-          progressStyle: { backgroundColor: "#E3372B" },
+          progressClassName: "!bg-[#E3372B]",
         }
       );
     }
@@ -72,11 +72,11 @@ export const Form: React.FC = () => {
       await LocalApiService.sendContactMail(data);
       reset();
       toast(<SuccessToast />, {
-        progressStyle: { backgroundColor: "#3FBF66" },
+        progressClassName: "!bg-[#3FBF66]",
       });
     } catch (error) {
       toast(<ErrorToast />, {
-        progressStyle: { backgroundColor: "#E3372B" },
+        progressClassName: "!bg-[#E3372B]",
       });
     } finally {
       setLoading(false);

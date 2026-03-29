@@ -39,7 +39,7 @@ const Home: React.FC<HomeProps> = ({ experiences }) => {
         position="bottom-right"
         autoClose={5000}
         newestOnTop
-        progressStyle={{ backgroundColor: "#FF2D19" }}
+        progressClassName="!bg-[#FF2D19]"
         theme="dark"
       />
     </div>

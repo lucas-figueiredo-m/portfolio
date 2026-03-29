@@ -1,0 +1,8 @@
+[     524ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1684181904-jobble-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[     838ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1684181911-jobble-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[    2294ms] [ERROR] `legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[    2319ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects/swift-pokedex:0
