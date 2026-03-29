@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f src/pages/old.tsx src/pages/blog/index.tsx src/pages/courses/index.tsx src/pages/index.html)",
+      "Bash(rm -rf public/assets/)",
+      "Bash(git mv:*)",
+      "Bash(npm install:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "Bash(npm run:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

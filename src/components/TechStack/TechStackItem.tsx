@@ -1,6 +1,6 @@
 import React from "react";
 import { TechStackItemContainer } from "./styles";
-import { TechStackData } from "./Techtack.type";
+import { TechStackData } from "./TechStack.type";
 
 type TechStackItemProps = {
   tech: TechStackData;

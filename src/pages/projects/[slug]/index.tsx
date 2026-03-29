@@ -1,6 +1,7 @@
-import { GetServerSideProps } from "next";
+import { GetStaticProps, GetStaticPaths } from "next";
 import { CmsService, ProjectType } from "@services/CmsService";
 import React from "react";
+import Head from "next/head";
 import {
   Banner,
   FutureReleasesContent,
@@ -9,7 +10,7 @@ import {
 import { Header } from "@components/Header";
 import { Footer } from "@components/Footer";
 import {
-  BagdesContainer,
+  BadgesContainer,
   ColumnPackages,
   ProjectDetailContent,
 } from "@components/ProjectDetail";
@@ -28,7 +29,10 @@ type ProjectDetailsType = {
 const ProjectDetailsPage: React.FC<ProjectDetailsType> = ({ project }) => {
   return (
     <ProjectDetailContainer>
-      <title>Lucas Figueiredo - {project.title}</title>
+      <Head>
+        <title>{project.title} | Lucas Figueiredo</title>
+        <meta name="description" content={project.description} />
+      </Head>
       <Header />
       <Banner
         title={project.title}
@@ -59,21 +63,31 @@ const ProjectDetailsPage: React.FC<ProjectDetailsType> = ({ project }) => {
             </FutureReleasesContent>
           )}
         </ProjectDetailContent>
-        <BagdesContainer>
+        <BadgesContainer>
           {project.appStoreUrl && <AppStoreButton url={project.appStoreUrl} />}
           {project.playStoreUrl && (
             <PlayStoreButton url={project.playStoreUrl} />
           )}
           {project.github && <GithubButton url={project.github} />}
           {project.url && <WebsiteButton url={project.url} />}
-        </BagdesContainer>
+        </BadgesContainer>
       </main>
       <Footer />
     </ProjectDetailContainer>
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getStaticPaths: GetStaticPaths = async () => {
+  const projects = await CmsService.getAllProjects();
+
+  const paths = projects.map((project) => ({
+    params: { slug: project.slug },
+  }));
+
+  return { paths, fallback: "blocking" };
+};
+
+export const getStaticProps: GetStaticProps = async (context) => {
   const params = context.params;
 
   const project = await CmsService.getUniqueProject(String(params?.slug));
@@ -82,6 +96,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     props: {
       project,
     },
+    revalidate: 60 * 60 * 12,
   };
 };
 

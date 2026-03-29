@@ -34,9 +34,9 @@ export const GetWorks = gql`
   }
 `;
 
-export const GetUniqueWork = (workSlug: string) => gql`
-  query {
-    work(filter: { slug: { eq: "${workSlug}" }}) {
+export const GetUniqueWork = gql`
+  query GetUniqueWork($slug: String!) {
+    work(filter: { slug: { eq: $slug } }) {
       id
       company
       role
@@ -71,9 +71,9 @@ export const GetAllProjects = gql`
   }
 `;
 
-export const GetUniqueProject = (projectSlug: string) => gql`
-  query {
-    project(filter: { slug: { eq: "${projectSlug}" }}) {
+export const GetUniqueProject = gql`
+  query GetUniqueProject($slug: String!) {
+    project(filter: { slug: { eq: $slug } }) {
       id
       title
       coverImage {

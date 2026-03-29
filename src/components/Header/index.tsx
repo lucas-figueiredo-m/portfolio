@@ -1,13 +1,11 @@
 import React, { useCallback, useState } from "react";
 import { Container } from "./styles";
 import { useMediaQuery } from "@hooks/useMediaQuery";
-import { Hamburguer } from "@components/Hamburguer";
+import { Hamburger } from "@components/Hamburger";
 import { Menu } from "@components/Menu";
 import { NavigationLink } from "@components/NavigationLink";
 
-type HeaderProps = {};
-
-export const Header: React.FC<HeaderProps> = () => {
+export const Header: React.FC = () => {
   const isSmallScreen = useMediaQuery(750);
 
   const [isOpened, setOpened] = useState(false);
@@ -38,7 +36,7 @@ export const Header: React.FC<HeaderProps> = () => {
     <Container isSmallScreen={isSmallScreen}>
       {isSmallScreen ? (
         <>
-          <Hamburguer isOpened={isOpened} onPress={onHamburguerPress} />
+          <Hamburger isOpened={isOpened} onPress={onHamburguerPress} />
           <Menu onOverlayPress={onCloseDrawer} isOpened={isOpened} />
         </>
       ) : (

@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import { PhoneIcon, TechStackContainer, ServerIcon, OtherIcon } from "./styles";
 import { TechStackItem } from "./TechStackItem";
-import { TechStackData } from "./Techtack.type";
+import { TechStackData } from "./TechStack.type";
 
 const techStack: TechStackData[] = [
   {

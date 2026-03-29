@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { Header } from "@components/Header";
 
 import { HomeContainer } from "../styles/HomeStyles";
@@ -21,6 +22,13 @@ type HomeProps = {
 const Home: React.FC<HomeProps> = ({ experiences }) => {
   return (
     <HomeContainer>
+      <Head>
+        <title>Lucas Figueiredo | Mobile Engineer</title>
+        <meta name="description" content="Portfolio of Lucas Figueiredo, a Mobile Engineer specialized in React Native, TypeScript, and mobile app development." />
+        <meta property="og:title" content="Lucas Figueiredo | Mobile Engineer" />
+        <meta property="og:description" content="Portfolio of Lucas Figueiredo, a Mobile Engineer specialized in React Native, TypeScript, and mobile app development." />
+        <meta property="og:type" content="website" />
+      </Head>
       <Header />
       <main className="container">
         <HomeHero />

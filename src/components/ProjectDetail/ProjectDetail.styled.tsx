@@ -198,7 +198,7 @@ export const ColumnPackages = styled.div`
   }
 `;
 
-export const BagdesContainer = styled.div`
+export const BadgesContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;

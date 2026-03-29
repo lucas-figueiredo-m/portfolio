@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { Header } from "@components/Header";
 
 import { WorkContainer, WorkContent } from "@styles";
@@ -16,6 +17,10 @@ type WorkPageProps = {
 const WorkPage: React.FC<WorkPageProps> = ({ works }) => {
   return (
     <WorkContainer>
+      <Head>
+        <title>Work Experience | Lucas Figueiredo</title>
+        <meta name="description" content="Professional work experience of Lucas Figueiredo as a mobile engineer." />
+      </Head>
       <Header />
       <main className="container">
         <WorkContent>

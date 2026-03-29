@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { Header } from "@components/Header";
 
 import { Footer } from "@components/Footer";
@@ -16,6 +17,10 @@ type ProjectsPageProps = {
 const ProjectsPage: React.FC<ProjectsPageProps> = ({ projects }) => {
   return (
     <ProjectsContainer>
+      <Head>
+        <title>Projects | Lucas Figueiredo</title>
+        <meta name="description" content="Personal and professional projects by Lucas Figueiredo." />
+      </Head>
       <Header />
       <main className="container">
         {projects.map((project) => (

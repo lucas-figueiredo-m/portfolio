@@ -55,7 +55,8 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
 
   public async getUniqueWork(slug: string): Promise<WorksType> {
     const response = await this.api.query<UniqueWorkType>({
-      query: GetUniqueWork(slug),
+      query: GetUniqueWork,
+      variables: { slug },
     });
 
     return response.data.work;
@@ -71,7 +72,8 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
 
   public async getUniqueProject(slug: string): Promise<ProjectType> {
     const response = await this.api.query<UniqueProjectType>({
-      query: GetUniqueProject(slug),
+      query: GetUniqueProject,
+      variables: { slug },
     });
 
     return response.data.project;

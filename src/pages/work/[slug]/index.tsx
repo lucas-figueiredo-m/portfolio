@@ -1,8 +1,9 @@
 import React from "react";
+import Head from "next/head";
 import { WorkDetailContent, WorkDetailsContainer } from "@styles";
 import { Header } from "@components/Header";
 import { WorkDetailItem } from "@components/WorkDetail";
-import { GetServerSideProps } from "next";
+import { GetStaticProps, GetStaticPaths } from "next";
 import { CmsService, WorksType } from "@services/CmsService";
 import DOMPurify from "isomorphic-dompurify";
 import parse from "html-react-parser";
@@ -15,6 +16,10 @@ type WorkDetailsType = {
 const WorkDetails: React.FC<WorkDetailsType> = ({ work }) => {
   return (
     <WorkDetailsContainer>
+      <Head>
+        <title>{work.company} | Lucas Figueiredo</title>
+        <meta name="description" content={work.description} />
+      </Head>
       <Header />
       <main className="container">
         <WorkDetailContent>
@@ -35,7 +40,17 @@ const WorkDetails: React.FC<WorkDetailsType> = ({ work }) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getStaticPaths: GetStaticPaths = async () => {
+  const works = await CmsService.getAllWorks();
+
+  const paths = works.map((work) => ({
+    params: { slug: work.slug },
+  }));
+
+  return { paths, fallback: "blocking" };
+};
+
+export const getStaticProps: GetStaticProps = async (context) => {
   const params = context.params;
 
   const work = await CmsService.getUniqueWork(String(params?.slug));
@@ -44,6 +59,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     props: {
       work,
     },
+    revalidate: 60 * 60 * 12,
   };
 };
 

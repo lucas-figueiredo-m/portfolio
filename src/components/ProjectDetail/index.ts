@@ -1,7 +1,7 @@
 export {
   ProjectDetailContainer,
   ProjectDetailContent,
-  BagdesContainer,
+  BadgesContainer,
   ColumnPackages,
   FutureReleasesContent,
 } from "./ProjectDetail.styled";

@@ -1,0 +1,4 @@
+[    1204ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[    1215ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[    2231ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
