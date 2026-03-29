@@ -26,16 +26,12 @@ export const NavigationLink: React.FC<NavLinkProps> = ({
   return (
     <li>
       <div className="transition-all duration-500 ease-in-out mt-8 hover:scale-105">
-        <Link href={url} legacyBehavior>
-          <a
-            className={`uppercase transition-colors duration-500 max-[700px]:text-2xl max-[700px]:font-medium ${
+        <Link href={url} className={`uppercase transition-colors duration-500 max-[700px]:text-2xl max-[700px]:font-medium ${
               isActive
                 ? "text-[#FF2D19] hover:text-[#ff7066]"
                 : "text-white hover:text-[#ffffff4d]"
-            }`}
-          >
+            }`}>
             {label}
-          </a>
         </Link>
       </div>
     </li>

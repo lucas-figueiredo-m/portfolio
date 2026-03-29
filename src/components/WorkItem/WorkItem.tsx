@@ -56,10 +56,8 @@ export const WorkItem: React.FC<WorkItemProps> = ({
             : "m-[0_0_3rem_5rem]"
         }`}
       >
-        <Link href={`/work/${encodeURIComponent(slug)}`} legacyBehavior>
-          <a className="flex items-center gap-[0.8rem] text-[2rem] text-white transition-colors duration-500 group-hover:text-[#FF2D19] max-[450px]:text-[1.5rem]">
+        <Link href={`/work/${encodeURIComponent(slug)}`} className="flex items-center gap-[0.8rem] text-[2rem] text-white transition-colors duration-500 group-hover:text-[#FF2D19] max-[450px]:text-[1.5rem]">
             See more <IoChevronForwardOutline />
-          </a>
         </Link>
       </button>
     </section>

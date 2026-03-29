@@ -1,0 +1,9 @@
+[     512ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{"/":true}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:182:46)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:199:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:72:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:69:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/shared.js:25
+[     594ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[     625ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
