@@ -5,8 +5,8 @@ import { ExpertiseItem } from "./ExpertiseItem";
 describe("ExpertiseItem", () => {
   const defaultProps = {
     icon: <svg data-testid="test-icon" />,
-    label: "React",
-    hoverColor: "#61DAFB",
+    title: "Mobile Development",
+    description: "Building mobile apps with React Native.",
   };
 
   it("renders the icon", () => {
@@ -14,33 +14,22 @@ describe("ExpertiseItem", () => {
     expect(screen.getByTestId("test-icon")).toBeDefined();
   });
 
-  it("renders the label", () => {
+  it("renders the title", () => {
     render(<ExpertiseItem {...defaultProps} />);
-    expect(screen.getByText("React")).toBeDefined();
+    expect(screen.getByText("Mobile Development")).toBeDefined();
   });
 
-  it("renders a ReactNode label", () => {
-    render(
-      <ExpertiseItem
-        icon={<svg data-testid="test-icon" />}
-        label={<span>Custom Label</span>}
-        hoverColor="#000"
-      />
-    );
-    expect(screen.getByText("Custom Label")).toBeDefined();
+  it("renders the description", () => {
+    render(<ExpertiseItem {...defaultProps} />);
+    expect(
+      screen.getByText("Building mobile apps with React Native.")
+    ).toBeDefined();
   });
 
-  it("sets the hover color as a CSS custom property", () => {
+  it("renders with correct card styling", () => {
     const { container } = render(<ExpertiseItem {...defaultProps} />);
-    const outerDiv = container.firstElementChild as HTMLElement;
-    expect(outerDiv.style.getPropertyValue("--hover-color")).toBe("#61DAFB");
-  });
-
-  it("has hover color classes referencing the CSS variable", () => {
-    const { container } = render(<ExpertiseItem {...defaultProps} />);
-    const iconWrapper = container.querySelector(".peer");
-    expect(iconWrapper?.className).toContain(
-      "hover:[&>svg]:fill-[var(--hover-color)]"
-    );
+    const card = container.firstElementChild as HTMLElement;
+    expect(card.className).toContain("bg-surface");
+    expect(card.className).toContain("border-border");
   });
 });

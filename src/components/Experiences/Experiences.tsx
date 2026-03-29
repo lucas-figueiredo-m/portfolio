@@ -11,9 +11,9 @@ export const Experiences: React.FC<ExperiencesSectionType> = ({
   experiences,
 }) => {
   return (
-    <section className="w-full pb-32 border-b-[3px] border-[#8A3E37]">
-      <SectionTitle title="Latest experiences" />
-      <section className="w-full mt-28 flex gap-6 max-[1000px]:flex-col max-[1000px]:mt-20 max-[1000px]:gap-8">
+    <section id="experience" className="w-full py-24">
+      <SectionTitle label="EXPERIENCE" title="Latest experiences" />
+      <div className="w-full mt-12 space-y-1">
         {experiences.map((item) => (
           <ExperienceItem
             key={item.id}
@@ -23,7 +23,7 @@ export const Experiences: React.FC<ExperiencesSectionType> = ({
             description={item.description}
           />
         ))}
-      </section>
+      </div>
     </section>
   );
 };

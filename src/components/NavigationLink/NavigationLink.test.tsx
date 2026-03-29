@@ -33,7 +33,7 @@ describe("NavigationLink", () => {
 
     render(<NavigationLink url="/about" label="About" />);
     const link = screen.getByText("About");
-    expect(link.className).toContain("text-[#FF2D19]");
+    expect(link.className).toContain("text-text-primary");
   });
 
   it("applies inactive styles when pathname does not match", () => {
@@ -44,7 +44,7 @@ describe("NavigationLink", () => {
 
     render(<NavigationLink url="/about" label="About" />);
     const link = screen.getByText("About");
-    expect(link.className).toContain("text-white");
+    expect(link.className).toContain("text-text-secondary");
   });
 
   it("uses includes matching when includes prop is true", () => {
@@ -55,7 +55,7 @@ describe("NavigationLink", () => {
 
     render(<NavigationLink url="/about" label="About" includes />);
     const link = screen.getByText("About");
-    expect(link.className).toContain("text-[#FF2D19]");
+    expect(link.className).toContain("text-text-primary");
   });
 
   it("does not match with includes=false on partial pathname", () => {
@@ -66,6 +66,6 @@ describe("NavigationLink", () => {
 
     render(<NavigationLink url="/about" label="About" />);
     const link = screen.getByText("About");
-    expect(link.className).toContain("text-white");
+    expect(link.className).toContain("text-text-secondary");
   });
 });

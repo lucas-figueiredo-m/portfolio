@@ -6,7 +6,7 @@ type ColumnPackagesProps = {
 
 export const ColumnPackages: React.FC<ColumnPackagesProps> = ({ children }) => {
   return (
-    <div className="[&_ul]:columns-2 [&_ul]:mt-6 [&_li]:text-2xl [&_li]:before:content-['✅'] [&_li]:before:pr-4 max-[700px]:[&_ul]:columns-1 max-[700px]:[&_li]:text-base max-[700px]:[&_li]:before:pr-2">
+    <div className="[&_ul]:mt-4 [&_ul]:flex [&_ul]:flex-wrap [&_ul]:gap-2 [&_li]:list-none [&_li]:rounded-full [&_li]:bg-surface-elevated [&_li]:px-3 [&_li]:py-1 [&_li]:text-sm [&_li]:text-text-secondary [&_li]:border [&_li]:border-border">
       {children}
     </div>
   );

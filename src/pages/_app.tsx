@@ -1,9 +1,16 @@
 import React, { useEffect } from "react";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
+import { Inter } from "next/font/google";
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
 import "../styles/globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_APIKEY,
@@ -48,7 +55,11 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <div className={`${inter.variable} ${inter.className}`}>
+      <Component {...pageProps} />
+    </div>
+  );
 };
 
 export default App;

@@ -10,21 +10,18 @@ export const Hamburger: React.FC<HamburgerProps> = ({
   return (
     <button
       onClick={onPress}
-      className="flex flex-col w-[2.1rem] h-8 cursor-pointer items-center justify-around mt-1 mr-4 border-none bg-transparent z-50"
+      aria-label="Toggle menu"
+      aria-expanded={isOpened}
+      className="relative flex items-center justify-center w-6 h-6 cursor-pointer border-none bg-transparent z-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
     >
-      <div
-        className={`w-[1.9rem] h-[0.2rem] bg-white rounded transition-all duration-500 ease-in-out origin-right ${
-          isOpened ? "-rotate-45" : "rotate-0"
+      <span
+        className={`absolute block w-5 h-[1.5px] bg-text-primary rounded-full transition-transform duration-300 ease-in-out motion-reduce:transition-none ${
+          isOpened ? "rotate-45 translate-y-0" : "-translate-y-[5px]"
         }`}
       />
-      <div
-        className={`w-[1.9rem] h-[0.2rem] bg-white rounded transition-all duration-500 ease-in-out origin-right ${
-          isOpened ? "translate-x-8 opacity-0" : "translate-x-0 opacity-100"
-        }`}
-      />
-      <div
-        className={`w-[1.9rem] h-[0.2rem] bg-white rounded transition-all duration-500 ease-in-out origin-right ${
-          isOpened ? "rotate-45" : "rotate-0"
+      <span
+        className={`absolute block w-5 h-[1.5px] bg-text-primary rounded-full transition-transform duration-300 ease-in-out motion-reduce:transition-none ${
+          isOpened ? "-rotate-45 translate-y-0" : "translate-y-[5px]"
         }`}
       />
     </button>

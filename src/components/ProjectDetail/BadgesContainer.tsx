@@ -8,7 +8,7 @@ export const BadgesContainer: React.FC<BadgesContainerProps> = ({
   children,
 }) => {
   return (
-    <div className="flex flex-row items-center gap-4 max-[700px]:flex-col max-[700px]:items-center">
+    <div className="max-w-4xl mx-auto flex flex-wrap items-center gap-3 mt-10">
       {children}
     </div>
   );

@@ -1,14 +1,6 @@
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { ExperienceItem } from "./ExperienceItem";
-
-vi.mock("@utils", () => ({
-  dateUtils: {
-    format: {
-      yearOnly: (date: string) => new Date(date).getFullYear().toString(),
-    },
-  },
-}));
 
 describe("ExperienceItem", () => {
   const defaultProps = {
@@ -23,9 +15,10 @@ describe("ExperienceItem", () => {
     expect(screen.getByText("Acme Corp")).toBeDefined();
   });
 
-  it("renders formatted date range", () => {
+  it("renders formatted date range using Intl.DateTimeFormat", () => {
     render(<ExperienceItem {...defaultProps} />);
-    expect(screen.getByText("2020 - 2023")).toBeDefined();
+    expect(screen.getByText(/Jun 2020/)).toBeDefined();
+    expect(screen.getByText(/Jun 2023/)).toBeDefined();
   });
 
   it("renders the description", () => {
@@ -33,10 +26,17 @@ describe("ExperienceItem", () => {
     expect(screen.getByText("Built amazing things")).toBeDefined();
   });
 
-  it("has hover effect classes on the inner div", () => {
+  it("has subtle hover styling classes", () => {
     const { container } = render(<ExperienceItem {...defaultProps} />);
-    const innerDiv = container.querySelector("div > div > div");
-    expect(innerDiv?.className).toContain("group-hover:brightness-[1.3]");
-    expect(innerDiv?.className).toContain("group-hover:-translate-y-5");
+    const wrapper = container.querySelector("[role='article']");
+    expect(wrapper?.className).toContain("hover:bg-surface/50");
+    expect(wrapper?.className).toContain("hover:border-accent");
+  });
+
+  it("is focusable with focus-visible styles", () => {
+    const { container } = render(<ExperienceItem {...defaultProps} />);
+    const wrapper = container.querySelector("[role='article']");
+    expect(wrapper?.getAttribute("tabindex")).toBe("0");
+    expect(wrapper?.className).toContain("focus-visible:ring-2");
   });
 });

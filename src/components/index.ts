@@ -5,3 +5,4 @@ export * from "./Experiences";
 export * from "./Form";
 export * from "./Toast";
 export * from "./ProjectDetail";
+export * from "./RevealOnScroll";

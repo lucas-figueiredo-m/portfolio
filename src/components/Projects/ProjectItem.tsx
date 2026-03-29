@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ProjectTypesType } from "@services/CmsService";
 
 type ProjectItemProps = {
@@ -16,18 +17,23 @@ export const ProjectItem: React.FC<ProjectItemProps> = ({
   slug,
 }) => {
   return (
-    <div>
-      <Link
-        href={`/projects/${slug}`}
-        className="group flex relative w-full h-80 p-6 bg-cover bg-center bg-no-repeat rounded-2xl transition-all duration-500 cursor-pointer overflow-hidden items-center justify-center border border-transparent bg-clip-padding box-border hover:border-[#FF2D19]"
-        style={{ backgroundImage: `url(${imgUrl})` }}
-      >
-        <div className="bg-black opacity-60 group-hover:opacity-20 transition-opacity duration-500 absolute w-full h-full rounded-2xl" />
-        <section className="z-[2] flex flex-col items-start justify-end w-full h-full">
-          <h1 className="text-[2rem] font-medium text-white">{title}</h1>
-          <h2 className="text-2xl text-white">{type}</h2>
-        </section>
-      </Link>
-    </div>
+    <Link
+      href={`/projects/${slug}`}
+      className="group block rounded-lg overflow-hidden transition-transform duration-500 hover:translate-y-[-2px]"
+    >
+      <div className="relative aspect-video overflow-hidden rounded-lg bg-surface">
+        <Image
+          src={imgUrl}
+          alt={title}
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
+      </div>
+      <span className="block text-xs text-accent uppercase tracking-wider mt-3">
+        {type}
+      </span>
+      <h3 className="text-lg font-semibold text-text-primary mt-1">{title}</h3>
+    </Link>
   );
 };

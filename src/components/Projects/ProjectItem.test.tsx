@@ -10,10 +10,16 @@ vi.mock("next/link", () => ({
   ),
 }));
 
+vi.mock("next/image", () => ({
+  default: ({ src, alt, ...props }: any) => (
+    <img src={src} alt={alt} {...props} />
+  ),
+}));
+
 describe("ProjectItem", () => {
   const defaultProps = {
     title: "Portfolio Site",
-    type: "Web Application" as const,
+    type: "Frontend" as const,
     imgUrl: "/images/portfolio.png",
     slug: "portfolio-site",
   };
@@ -25,7 +31,7 @@ describe("ProjectItem", () => {
 
   it("renders the project type", () => {
     render(<ProjectItem {...defaultProps} />);
-    expect(screen.getByText("Web Application")).toBeDefined();
+    expect(screen.getByText("Frontend")).toBeDefined();
   });
 
   it("links to the correct slug URL", () => {
@@ -34,9 +40,9 @@ describe("ProjectItem", () => {
     expect(link?.getAttribute("href")).toBe("/projects/portfolio-site");
   });
 
-  it("sets the background image style", () => {
+  it("renders the cover image", () => {
     render(<ProjectItem {...defaultProps} />);
-    const link = screen.getByText("Portfolio Site").closest("a") as HTMLElement;
-    expect(link?.style.backgroundImage).toContain("/images/portfolio.png");
+    const img = screen.getByAltText("Portfolio Site") as HTMLImageElement;
+    expect(img.getAttribute("src")).toBe("/images/portfolio.png");
   });
 });

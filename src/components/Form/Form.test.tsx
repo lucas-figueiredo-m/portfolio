@@ -36,22 +36,31 @@ describe("Form", () => {
 
   it("renders the email input", () => {
     render(<Form />);
-    expect(screen.getByPlaceholderText("E-mail")).toBeDefined();
+    expect(screen.getByPlaceholderText("your@email.com")).toBeDefined();
   });
 
   it("renders the message textarea", () => {
     render(<Form />);
-    expect(screen.getByPlaceholderText("Message")).toBeDefined();
+    expect(
+      screen.getByPlaceholderText("Tell me about your project...")
+    ).toBeDefined();
   });
 
   it("renders the send button", () => {
     render(<Form />);
-    expect(screen.getByText("SEND")).toBeDefined();
+    expect(screen.getByText("Send Message")).toBeDefined();
+  });
+
+  it("renders labels for inputs", () => {
+    render(<Form />);
+    expect(screen.getByLabelText("Name")).toBeDefined();
+    expect(screen.getByLabelText("Email")).toBeDefined();
+    expect(screen.getByLabelText("Message")).toBeDefined();
   });
 
   it("shows error toast when submitting with empty name", async () => {
     render(<Form />);
-    fireEvent.click(screen.getByText("SEND"));
+    fireEvent.click(screen.getByText("Send Message"));
 
     await waitFor(() => {
       expect(mockToast).toHaveBeenCalled();
@@ -62,10 +71,16 @@ describe("Form", () => {
     const user = userEvent.setup();
     render(<Form />);
 
-    await user.type(screen.getByPlaceholderText("Name and/or Company"), "John");
-    await user.clear(screen.getByPlaceholderText("E-mail"));
-    await user.type(screen.getByPlaceholderText("E-mail"), "not-an-email");
-    fireEvent.submit(screen.getByText("SEND").closest("form")!);
+    await user.type(
+      screen.getByPlaceholderText("Name and/or Company"),
+      "John"
+    );
+    await user.clear(screen.getByPlaceholderText("your@email.com"));
+    await user.type(
+      screen.getByPlaceholderText("your@email.com"),
+      "not-an-email"
+    );
+    fireEvent.submit(screen.getByText("Send Message").closest("form")!);
 
     await waitFor(() => {
       expect(mockToast).toHaveBeenCalled();
@@ -76,10 +91,19 @@ describe("Form", () => {
     const user = userEvent.setup();
     render(<Form />);
 
-    await user.type(screen.getByPlaceholderText("Name and/or Company"), "John");
-    await user.type(screen.getByPlaceholderText("E-mail"), "john@example.com");
-    await user.type(screen.getByPlaceholderText("Message"), "Short");
-    fireEvent.click(screen.getByText("SEND"));
+    await user.type(
+      screen.getByPlaceholderText("Name and/or Company"),
+      "John"
+    );
+    await user.type(
+      screen.getByPlaceholderText("your@email.com"),
+      "john@example.com"
+    );
+    await user.type(
+      screen.getByPlaceholderText("Tell me about your project..."),
+      "Short"
+    );
+    fireEvent.click(screen.getByText("Send Message"));
 
     await waitFor(() => {
       expect(mockToast).toHaveBeenCalled();
@@ -90,13 +114,19 @@ describe("Form", () => {
     const user = userEvent.setup();
     render(<Form />);
 
-    await user.type(screen.getByPlaceholderText("Name and/or Company"), "John Doe");
-    await user.type(screen.getByPlaceholderText("E-mail"), "john@example.com");
     await user.type(
-      screen.getByPlaceholderText("Message"),
+      screen.getByPlaceholderText("Name and/or Company"),
+      "John Doe"
+    );
+    await user.type(
+      screen.getByPlaceholderText("your@email.com"),
+      "john@example.com"
+    );
+    await user.type(
+      screen.getByPlaceholderText("Tell me about your project..."),
       "Hello, this is a valid message that is long enough."
     );
-    fireEvent.click(screen.getByText("SEND"));
+    fireEvent.click(screen.getByText("Send Message"));
 
     await waitFor(() => {
       expect(mockSendContactMail).toHaveBeenCalledWith({
@@ -112,16 +142,21 @@ describe("Form", () => {
     const user = userEvent.setup();
     render(<Form />);
 
-    await user.type(screen.getByPlaceholderText("Name and/or Company"), "John Doe");
-    await user.type(screen.getByPlaceholderText("E-mail"), "john@example.com");
     await user.type(
-      screen.getByPlaceholderText("Message"),
+      screen.getByPlaceholderText("Name and/or Company"),
+      "John Doe"
+    );
+    await user.type(
+      screen.getByPlaceholderText("your@email.com"),
+      "john@example.com"
+    );
+    await user.type(
+      screen.getByPlaceholderText("Tell me about your project..."),
       "Hello, this is a valid message that is long enough."
     );
-    fireEvent.click(screen.getByText("SEND"));
+    fireEvent.click(screen.getByText("Send Message"));
 
     await waitFor(() => {
-      // First call is the success toast (after the API call resolves)
       expect(mockToast).toHaveBeenCalled();
       expect(mockSendContactMail).toHaveBeenCalled();
     });
@@ -132,13 +167,19 @@ describe("Form", () => {
     const user = userEvent.setup();
     render(<Form />);
 
-    await user.type(screen.getByPlaceholderText("Name and/or Company"), "John Doe");
-    await user.type(screen.getByPlaceholderText("E-mail"), "john@example.com");
     await user.type(
-      screen.getByPlaceholderText("Message"),
+      screen.getByPlaceholderText("Name and/or Company"),
+      "John Doe"
+    );
+    await user.type(
+      screen.getByPlaceholderText("your@email.com"),
+      "john@example.com"
+    );
+    await user.type(
+      screen.getByPlaceholderText("Tell me about your project..."),
       "Hello, this is a valid message that is long enough."
     );
-    fireEvent.click(screen.getByText("SEND"));
+    fireEvent.click(screen.getByText("Send Message"));
 
     await waitFor(() => {
       expect(mockToast).toHaveBeenCalled();

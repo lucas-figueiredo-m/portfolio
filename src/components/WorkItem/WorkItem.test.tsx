@@ -10,6 +10,10 @@ vi.mock("next/link", () => ({
   ),
 }));
 
+vi.mock("next/image", () => ({
+  default: ({ src, alt, ...props }: any) => <img src={src} alt={alt} />,
+}));
+
 describe("WorkItem", () => {
   const defaultProps = {
     title: "My Project",
@@ -23,39 +27,29 @@ describe("WorkItem", () => {
     expect(screen.getByText("My Project")).toBeDefined();
   });
 
-  it("renders the type with a dash prefix", () => {
+  it("renders the job type", () => {
     render(<WorkItem {...defaultProps} />);
-    expect(screen.getByText("- web app")).toBeDefined();
-  });
-
-  it("renders a See more link", () => {
-    render(<WorkItem {...defaultProps} />);
-    expect(screen.getByText(/See more/)).toBeDefined();
+    expect(screen.getByText("web app")).toBeDefined();
   });
 
   it("links to the correct slug URL", () => {
     render(<WorkItem {...defaultProps} />);
-    const link = screen.getByText(/See more/).closest("a");
-    expect(link?.getAttribute("href")).toBe("/work/my-project");
+    const link = screen.getByRole("link");
+    expect(link.getAttribute("href")).toBe("/work/my-project");
   });
 
   it("encodes special characters in slug", () => {
     render(<WorkItem {...defaultProps} slug="my project & stuff" />);
-    const link = screen.getByText(/See more/).closest("a");
-    expect(link?.getAttribute("href")).toBe(
+    const link = screen.getByRole("link");
+    expect(link.getAttribute("href")).toBe(
       `/work/${encodeURIComponent("my project & stuff")}`
     );
   });
 
-  it("applies flex-row-reverse when isEven is true", () => {
-    const { container } = render(<WorkItem {...defaultProps} isEven />);
-    const section = container.querySelector("section");
-    expect(section?.className).toContain("flex-row-reverse");
-  });
-
-  it("does not apply flex-row-reverse when isEven is false", () => {
-    const { container } = render(<WorkItem {...defaultProps} />);
-    const section = container.querySelector("section");
-    expect(section?.className).not.toContain("flex-row-reverse");
+  it("renders the cover image", () => {
+    render(<WorkItem {...defaultProps} />);
+    const img = screen.getByAltText("My Project");
+    expect(img).toBeDefined();
+    expect(img.getAttribute("src")).toBe("/images/project.png");
   });
 });

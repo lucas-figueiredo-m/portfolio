@@ -14,7 +14,7 @@ import isEmail from "validator/lib/isEmail";
 const SuccessToast: React.FC = () => (
   <Toast
     icon={<IoCheckmarkCircleOutline />}
-    color="#3FBF66"
+    color="#22c55e"
     label="Your message has been successfully sent."
   />
 );
@@ -31,10 +31,13 @@ const ErrorToast: React.FC<ErrorToastType> = ({
 }) => (
   <Toast
     icon={<IoCloseCircleOutline />}
-    color="#E3372B"
+    color="#ef4444"
     label={label}
   />
 );
+
+const inputStyles =
+  "w-full bg-surface border border-border rounded-lg px-4 py-3 text-text-primary text-sm outline-none transition-colors duration-200 focus:border-accent focus:ring-1 focus:ring-accent placeholder:text-text-tertiary disabled:opacity-50";
 
 export const Form: React.FC = () => {
   const { handleSubmit, register, reset } = useForm<ContactFormType>();
@@ -44,13 +47,13 @@ export const Form: React.FC = () => {
   const onSubmit: SubmitHandler<ContactFormType> = async (data) => {
     if (!data.senderName || data.senderName === "") {
       return toast(<ErrorToast label="Please, fill your name" />, {
-        progressClassName: "!bg-[#E3372B]",
+        progressClassName: "!bg-error",
       });
     }
 
     if (!data.senderEmail || !isEmail(data.senderEmail)) {
       return toast(<ErrorToast label="Please, use a valid e-mail" />, {
-        progressClassName: "!bg-[#E3372B]",
+        progressClassName: "!bg-error",
       });
     }
 
@@ -62,7 +65,7 @@ export const Form: React.FC = () => {
       return toast(
         <ErrorToast label="Please, write a message between 20 and 2000 characters long." />,
         {
-          progressClassName: "!bg-[#E3372B]",
+          progressClassName: "!bg-error",
         }
       );
     }
@@ -72,11 +75,11 @@ export const Form: React.FC = () => {
       await LocalApiService.sendContactMail(data);
       reset();
       toast(<SuccessToast />, {
-        progressClassName: "!bg-[#3FBF66]",
+        progressClassName: "!bg-success",
       });
     } catch (error) {
       toast(<ErrorToast />, {
-        progressClassName: "!bg-[#E3372B]",
+        progressClassName: "!bg-error",
       });
     } finally {
       setLoading(false);
@@ -86,42 +89,64 @@ export const Form: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="mt-32 w-full grid grid-cols-2 gap-4 max-[700px]:mt-20 max-[700px]:grid-cols-1"
+      className="mt-10 w-full grid grid-cols-2 gap-4 max-[700px]:grid-cols-1"
     >
-      <input
-        {...register("senderName")}
-        placeholder="Name and/or Company"
-        disabled={loading}
-        className="h-12 w-full bg-white border border-[#8A3E37] py-[1.7rem] px-6 text-black rounded-lg text-[1.2rem] outline-none transition-all duration-500 focus:border-[#FF2D19] placeholder:text-[#FF2D19] max-[450px]:p-[1.4rem] max-[450px]:text-base"
-      />
-      <input
-        {...register("senderEmail")}
-        placeholder="E-mail"
-        type="email"
-        disabled={loading}
-        className="h-12 w-full bg-white border border-[#8A3E37] py-[1.7rem] px-6 text-black rounded-lg text-[1.2rem] outline-none transition-all duration-500 focus:border-[#FF2D19] placeholder:text-[#FF2D19] max-[450px]:p-[1.4rem] max-[450px]:text-base"
-      />
-      <textarea
-        {...register("senderMessage")}
-        placeholder="Message"
-        minLength={20}
-        maxLength={2000}
-        disabled={loading}
-        className="h-40 w-full bg-white border border-[#8A3E37] py-[1.7rem] px-6 text-black rounded-lg text-[1.2rem] outline-none transition-all duration-500 resize-none col-span-2 focus:border-[#FF2D19] placeholder:text-[#FF2D19] max-[700px]:col-span-1 max-[450px]:p-[1.4rem] max-[450px]:text-base"
-      />
-      {loading ? (
-        <div className="border-none py-4 px-10 text-white font-light text-[1.2rem] rounded-lg bg-[#cc0000] transition-all duration-500 w-fit max-[450px]:py-[0.8rem] max-[450px]:px-6 max-[450px]:text-base">
-          <span className="animate-pulse">Sending...</span>
-        </div>
-      ) : (
+      <div className="flex flex-col gap-2">
+        <label htmlFor="senderName" className="text-sm text-text-secondary">
+          Name
+        </label>
+        <input
+          {...register("senderName")}
+          id="senderName"
+          placeholder="Name and/or Company"
+          disabled={loading}
+          autoComplete="name"
+          className={inputStyles}
+        />
+      </div>
+      <div className="flex flex-col gap-2">
+        <label htmlFor="senderEmail" className="text-sm text-text-secondary">
+          Email
+        </label>
+        <input
+          {...register("senderEmail")}
+          id="senderEmail"
+          placeholder="your@email.com"
+          type="email"
+          disabled={loading}
+          autoComplete="email"
+          spellCheck={false}
+          className={inputStyles}
+        />
+      </div>
+      <div className="flex flex-col gap-2 col-span-2 max-[700px]:col-span-1">
+        <label htmlFor="senderMessage" className="text-sm text-text-secondary">
+          Message
+        </label>
+        <textarea
+          {...register("senderMessage")}
+          id="senderMessage"
+          placeholder="Tell me about your project..."
+          minLength={20}
+          maxLength={2000}
+          disabled={loading}
+          autoComplete="off"
+          className={`${inputStyles} min-h-[150px] resize-none`}
+        />
+      </div>
+      <div>
         <button
           type="submit"
           disabled={loading}
-          className="border-none py-4 px-10 text-white font-medium text-[1.2rem] rounded-lg bg-[#FF2D19] transition-all duration-500 w-fit disabled:opacity-50 hover:not-disabled:bg-[#cc0000] max-[450px]:py-[0.8rem] max-[450px]:px-6 max-[450px]:text-base"
+          className="bg-accent hover:bg-accent-hover text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 disabled:opacity-50"
         >
-          SEND
+          {loading ? (
+            <span className="animate-pulse">Sending...</span>
+          ) : (
+            "Send Message"
+          )}
         </button>
-      )}
+      </div>
     </form>
   );
 };

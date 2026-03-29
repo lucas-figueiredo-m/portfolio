@@ -1,61 +1,85 @@
 import React from "react";
-import { IoPhonePortraitOutline, IoServer } from "react-icons/io5";
-import { BsThreeDots } from "react-icons/bs";
-import { TechStackItem } from "./TechStackItem";
-import { TechStackData } from "./TechStack.type";
+import { SectionTitle } from "@components/SectionTitle";
 
-const techStack: TechStackData[] = [
+const techCategories = [
   {
-    title: "Mobile",
-    description: "",
-    icon: <IoPhonePortraitOutline className="w-10 h-10 stroke-black" />,
-    frameworks: [
+    title: "Core",
+    technologies: [
       "React Native",
+      "TypeScript",
+      "JavaScript",
+      "Swift",
+    ],
+  },
+  {
+    title: "Architecture & State",
+    technologies: [
+      "React Navigation",
       "Redux",
       "Jotai",
-      "React Hook Forms",
+      "Zustand",
+      "React Query",
+      "MMKV",
+    ],
+  },
+  {
+    title: "Performance & UI",
+    technologies: [
+      "Reanimated",
+      "Skia",
+      "Hermes",
+      "Fabric",
+      "Turbo Modules",
+      "JSI",
+    ],
+  },
+  {
+    title: "Testing & CI/CD",
+    technologies: [
+      "Detox",
+      "Maestro",
+      "Jest",
+      "Fastlane",
+      "EAS Build",
+      "CodePush",
+    ],
+  },
+  {
+    title: "Monitoring & Tools",
+    technologies: [
+      "Sentry",
       "Firebase",
-      "SwiftUI",
+      "Crashlytics",
+      "Flipper",
+      "XCode",
+      "Android Studio",
     ],
-    devTools: ["XCode", "Flipper", "Android Studio"],
-  },
-  {
-    title: "Backend",
-    description: "",
-    icon: <IoServer className="w-10 h-10 fill-black" />,
-    frameworks: [
-      "Node.JS",
-      "Nest.js",
-      "PostgreSQL",
-      "GraphQL",
-      "Github Actions",
-      "MySQL",
-    ],
-    devTools: ["DBeaver", "Firebase", "Postman"],
-  },
-  {
-    title: "Other",
-    description: "",
-    icon: <BsThreeDots className="w-10 h-10 fill-black" />,
-    frameworks: [
-      "JavaScript",
-      "TypeScript",
-      "Gitlab-CI",
-      "Docker",
-      "Kubernetes",
-      "Python",
-      "Next.JS",
-    ],
-    devTools: ["Figma", "AdobeXD"],
   },
 ];
 
 export const TechStack: React.FC = () => {
   return (
-    <div className="w-full rounded-t-[2rem] bg-white [mask-image:linear-gradient(black_80%,transparent_90%)] py-12 pb-36 px-0 flex flex-row max-[800px]:flex-col max-[800px]:gap-12 max-[800px]:px-12 max-[800px]:[mask-image:linear-gradient(black_90%,transparent_95%)] max-[500px]:px-6 max-[500px]:rounded-t-[1.5rem]">
-      {techStack.map((tech, index) => (
-        <TechStackItem key={index.toString()} tech={tech} isLast={index === techStack.length - 1} />
-      ))}
-    </div>
+    <section className="w-full">
+      <SectionTitle label="Tech Stack" title="Technologies" />
+      <div className="mt-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+        {techCategories.map((category) => (
+          <div key={category.title}>
+            <h3 className="text-sm font-semibold text-text-primary mb-3">
+              {category.title}
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {category.technologies.map((tech) => (
+                <span
+                  key={tech}
+                  className="text-xs px-3 py-1 rounded-full bg-surface border border-border text-text-secondary"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };

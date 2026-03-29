@@ -2,6 +2,7 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { CmsService, ProjectType } from "@services/CmsService";
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 import {
   Banner,
   FutureReleasesContent,
@@ -34,13 +35,20 @@ const ProjectDetailsPage: React.FC<ProjectDetailsType> = ({ project }) => {
         <meta name="description" content={project.description} />
       </Head>
       <Header />
-      <Banner
-        title={project.title}
-        imgSrc={project.coverImage.url}
-        language={project.language}
-        frameworks={project.frameworks}
-      />
-      <main className="container">
+      <main className="container py-16">
+        <Link
+          href="/projects"
+          className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-text-primary transition-colors mb-8"
+        >
+          &larr; Back to Projects
+        </Link>
+        <Banner
+          title={project.title}
+          imgSrc={project.coverImage.url}
+          language={project.language}
+          frameworks={project.frameworks}
+          projectType={project.projectType}
+        />
         <ProjectDetailContent>
           {project.packages && (
             <>
@@ -58,7 +66,7 @@ const ProjectDetailsPage: React.FC<ProjectDetailsType> = ({ project }) => {
           <p>{project.description}</p>
           {project.futureReleases && (
             <FutureReleasesContent>
-              <h2>🛠️ Fixes and Future releases</h2>
+              <h2>Fixes and Future releases</h2>
               {parse(DOMPurify.sanitize(project.futureReleases))}
             </FutureReleasesContent>
           )}

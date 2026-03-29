@@ -1,5 +1,9 @@
 import React from "react";
-import { FrameworkTypes, LanguageTypes } from "@services/CmsService";
+import {
+  FrameworkTypes,
+  LanguageTypes,
+  ProjectTypesType,
+} from "@services/CmsService";
 import { LanguageContent } from "./LanguageContent";
 import { FrameworkContent } from "./FrameworkContent";
 
@@ -8,6 +12,7 @@ type BannerProps = {
   language: LanguageTypes;
   frameworks: FrameworkTypes[];
   title: string;
+  projectType?: ProjectTypesType;
 };
 
 export const Banner: React.FC<BannerProps> = ({
@@ -15,15 +20,27 @@ export const Banner: React.FC<BannerProps> = ({
   language,
   frameworks,
   title,
+  projectType,
 }) => {
   return (
-    <section className="[&>h1]:mb-16 [&>h1]:text-[2.5rem] [&>h1]:font-semibold [&>h1]:text-center max-[700px]:[&>h1]:text-[1.8rem]">
+    <section className="flex flex-col items-center gap-6 pt-8">
       <div
-        className="w-full h-[30rem] bg-no-repeat bg-[length:100%] relative bg-[center_center] [mask-image:linear-gradient(black_30%,transparent_90%)] max-[1000px]:h-80 max-[700px]:h-40"
-        style={{ backgroundImage: `url(${imgSrc})` }}
+        className="h-40 w-full bg-cover bg-center bg-no-repeat sm:h-64 lg:h-80"
+        style={{
+          backgroundImage: `url(${imgSrc})`,
+          maskImage: "linear-gradient(black 30%, transparent 95%)",
+          WebkitMaskImage: "linear-gradient(black 30%, transparent 95%)",
+        }}
       />
-      <h1>{title}</h1>
-      <div className="container flex flex-row items-start justify-between max-[700px]:flex-col max-[700px]:gap-6 max-[700px]:items-center">
+      {projectType && (
+        <span className="text-xs font-medium uppercase tracking-widest text-accent">
+          {projectType}
+        </span>
+      )}
+      <h1 className="text-center text-3xl font-bold text-text-primary sm:text-4xl">
+        {title}
+      </h1>
+      <div className="flex flex-wrap items-center justify-center gap-3">
         <LanguageContent language={language} />
         <FrameworkContent frameworks={frameworks} />
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { dateUtils } from "@utils";
 
 type ExperienceItemProps = {
   from: string;
@@ -8,33 +7,42 @@ type ExperienceItemProps = {
   description: string;
 };
 
+const formatDate = (dateStr: string): string => {
+  const date = new Date(dateStr);
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    year: "numeric",
+  }).format(date);
+};
+
 export const ExperienceItem: React.FC<ExperienceItemProps> = ({
   from,
   to,
   title,
   description,
 }) => {
-  const fromText = dateUtils.format.yearOnly(from);
-  const toText = dateUtils.format.yearOnly(to);
+  const fromText = formatDate(from);
+  const toText = formatDate(to);
+
   return (
-    <div className="group flex flex-1 even:*:mt-16 max-[1000px]:even:*:mt-0">
-      <div
-        className={[
-          "bg-gradient-to-b from-[#400B06] to-black p-4 pt-10 h-80 flex flex-col items-start justify-start flex-1",
-          "transition-all duration-500 group-hover:brightness-[1.3] group-hover:-translate-y-5",
-          "max-[1000px]:h-auto max-[1000px]:p-8 max-[1000px]:group-hover:translate-y-0",
-          "max-[700px]:h-60 max-[700px]:pt-6",
-        ].join(" ")}
-      >
-        <h1 className="text-[#FF2D19] text-[2.5rem] mb-6 font-semibold max-[1000px]:text-[2.2rem] max-[700px]:text-[1.2rem] max-[700px]:mb-4">
-          {`${fromText} - ${toText}`}
-        </h1>
-        <h2 className="text-white text-[2rem] mb-4 font-medium max-[1000px]:text-[1.7rem] max-[700px]:text-[1rem]">
-          {title}
-        </h2>
-        <p className="text-white text-[1.2rem] font-normal text-justify max-[700px]:text-[0.9rem]">
-          {description}
-        </p>
+    <div
+      className={[
+        "group flex flex-col sm:flex-row gap-1 sm:gap-8",
+        "p-4 -mx-4 rounded-lg",
+        "border-l-2 border-transparent",
+        "transition-all duration-300 ease-in-out",
+        "hover:bg-surface/50 hover:border-l-2 hover:border-accent",
+        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background",
+      ].join(" ")}
+      tabIndex={0}
+      role="article"
+    >
+      <span className="text-sm text-text-tertiary font-mono tabular-nums min-w-[140px] pt-1 shrink-0">
+        {`${fromText} — ${toText}`}
+      </span>
+      <div className="flex flex-col">
+        <h3 className="text-lg font-semibold text-text-primary">{title}</h3>
+        <p className="text-sm text-text-secondary mt-1">{description}</p>
       </div>
     </div>
   );

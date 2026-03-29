@@ -10,9 +10,11 @@ export const LanguageContent: React.FC<LanguageContentProps> = ({
   language,
 }) => {
   return (
-    <div className="flex flex-row items-center gap-6 [&_svg]:w-12 [&_svg]:h-12 [&_h2]:text-2xl [&_h2]:font-medium max-[700px]:gap-4 max-[700px]:[&_div]:gap-4 max-[700px]:[&_svg]:w-8 max-[700px]:[&_svg]:h-8 max-[700px]:[&_h2]:text-[1.2rem]">
+    <div className="flex items-center gap-2 rounded-full border border-border bg-surface-elevated px-3 py-1.5 [&_svg]:h-5 [&_svg]:w-5">
       <LanguageLogos language={language} />
-      <h2>{language}</h2>
+      <span className="text-sm font-medium text-text-secondary">
+        {language}
+      </span>
     </div>
   );
 };

@@ -4,18 +4,12 @@ import { Form } from "..";
 
 export const ContactForm: React.FC = () => {
   return (
-    <div>
-      <SectionTitle
-        title={<>Need my services?</>}
-        description={
-          <>
-            Fill the form below
-            <br />
-            {"and I'll contact you soon"}
-          </>
-        }
-      />
+    <section className="w-full">
+      <SectionTitle label="Contact" title="Get In Touch" />
+      <p className="mt-4 text-text-secondary">
+        Have a project in mind? Let&apos;s talk.
+      </p>
       <Form />
-    </div>
+    </section>
   );
 };
