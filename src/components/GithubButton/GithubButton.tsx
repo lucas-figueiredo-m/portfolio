@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { IoLogoGithub } from "react-icons/io5";
-import { Container } from "./GithubButton.styled";
 
 type GithubButtonProps = {
   url: string;
@@ -9,16 +8,13 @@ type GithubButtonProps = {
 
 export const GithubButton: React.FC<GithubButtonProps> = ({ url }) => {
   return (
-    <Container>
-      <Link href={url} target="_blank">
-        <div>
-          <IoLogoGithub />
-          <section>
-            <h2>See code on</h2>
-            <h1>Github</h1>
-          </section>
-        </div>
-      </Link>
-    </Container>
+    <Link
+      href={url}
+      target="_blank"
+      className="inline-flex items-center gap-2 rounded-lg border border-border bg-transparent px-4 py-2.5 text-sm font-medium text-text-primary transition-colors hover:border-text-tertiary hover:bg-surface-elevated"
+    >
+      <IoLogoGithub className="h-5 w-5" />
+      GitHub
+    </Link>
   );
 };

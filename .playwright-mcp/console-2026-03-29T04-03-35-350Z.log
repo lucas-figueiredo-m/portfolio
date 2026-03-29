@@ -1,0 +1,1802 @@
+[    1121ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects/swift-pokedex:0
+[  308016ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308017ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308017ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308017ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308017ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308152ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308153ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308153ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  308153ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/firebase/analytics/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/analytics'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311297ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@firebase/analytics/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@firebase/installations/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311415ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311464ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311464ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311464ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311464ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311473ms] [ERROR] ./node_modules/@firebase/analytics/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311473ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311473ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311473ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311473ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/@firebase/installations/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311474ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@firebase/analytics/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@firebase/installations/dist/esm/index.esm.js
+Module not found: Can't resolve '@firebase/app'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311630ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311669ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311669ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311669ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311669ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311966ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311984ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311984ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311984ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  311984ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314486ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314514ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314514ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314514ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  314514ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315080ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315080ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315080ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315080ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315080ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315080ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315081ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315081ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315081ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315081ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315081ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315081ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315113ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315114ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315132ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315132ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315132ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  315132ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316099ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316148ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316164ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316164ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316164ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316164ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316257ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316296ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316297ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316297ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316297ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316315ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316315ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316315ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316315ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316695ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316741ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316759ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316759ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316759ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  316759ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/react-icons/io5/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/io5/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/io5/index.esm.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/react-icons/ti/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/ti/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/ti/index.esm.js
+./src/components/WebsiteButton/WebsiteButton.tsx
+./src/components/WebsiteButton/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317394ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317421ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317421ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317421ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317421ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js
+./src/pages/_app.tsx @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/react-icons/io5/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/io5/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/io5/index.esm.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/react-icons/ti/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/ti/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/ti/index.esm.js
+./src/components/WebsiteButton/WebsiteButton.tsx
+./src/components/WebsiteButton/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Module not found: Can't resolve 'process'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/react/index.js
+./node_modules/next/dist/client/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317444ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317445ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317445ms] [ERROR] ./node_modules/@firebase/util/dist/index.esm.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/@firebase/util/dist/index.esm.js
+./node_modules/@firebase/analytics/dist/esm/index.esm.js
+./node_modules/firebase/analytics/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317445ms] [ERROR] ./node_modules/react/cjs/react.development.js
+Cannot read properties of undefined (reading 'module')
+
+Import trace for requested module:
+./node_modules/react/cjs/react.development.js
+./node_modules/react/index.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/react-icons/io5/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/io5/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/io5/index.esm.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/react-icons/ti/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/ti/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/ti/index.esm.js
+./src/components/WebsiteButton/WebsiteButton.tsx
+./src/components/WebsiteButton/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317466ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317498ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317498ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317498ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317498ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/react-icons/io5/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/io5/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/io5/index.esm.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/react-icons/ti/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/ti/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/ti/index.esm.js
+./src/components/WebsiteButton/WebsiteButton.tsx
+./src/components/WebsiteButton/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317685ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317686ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/@swc/helpers/lib/_async_to_generator.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_async_to_generator.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_async_to_generator.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/script.js
+./node_modules/next/dist/shared/lib/router/router.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/dompurify/dist/purify.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/dompurify/dist/purify.js'
+
+Import trace for requested module:
+./node_modules/dompurify/dist/purify.js
+./node_modules/isomorphic-dompurify/browser.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/react-icons/io5/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/io5/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/io5/index.esm.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/react-icons/ti/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/react-icons/ti/index.esm.js'
+
+Import trace for requested module:
+./node_modules/react-icons/ti/index.esm.js
+./src/components/WebsiteButton/WebsiteButton.tsx
+./src/components/WebsiteButton/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/firebase/app/dist/esm/index.esm.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/firebase/app/dist/esm/index.esm.js'
+
+Import trace for requested module:
+./node_modules/firebase/app/dist/esm/index.esm.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317796ms] [ERROR] ./node_modules/html-react-parser/index.mjs
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/html-react-parser/index.mjs'
+
+Import trace for requested module:
+./node_modules/html-react-parser/index.mjs @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317862ms] [ERROR] ./node_modules/@swc/helpers/lib/_extends.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_extends.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_extends.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317862ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_default.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_default.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_default.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317862ms] [ERROR] ./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_interop_require_wildcard.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_interop_require_wildcard.js
+./node_modules/next/dist/shared/lib/head.js @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317862ms] [ERROR] ./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+Module build failed: Error: ENOENT: no such file or directory, open '/Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/node_modules/@swc/helpers/lib/_object_without_properties_loose.js'
+
+Import trace for requested module:
+./node_modules/@swc/helpers/lib/_object_without_properties_loose.js
+./node_modules/next/dist/client/link.js
+./node_modules/next/link.js
+./src/components/Footer/Footer.tsx
+./src/components/Footer/index.ts @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  317892ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/projects/swift-pokedex:0
+[  330414ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  397643ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  398754ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  632607ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  790359ms] [ERROR] `legacyBehavior` is deprecated and will be removed in a future release. A codemod is available to upgrade your components:
+
+npx @next/codemod@latest new-link .
+
+Learn more: https://nextjs.org/docs/app/building-your-application/upgrading/codemods#remove-a-tags-from-link-components @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  790429ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  790431ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15

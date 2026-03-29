@@ -1,7 +1,7 @@
 import {
   ApolloClient,
   InMemoryCache,
-  NormalizedCacheObject,
+  HttpLink,
 } from "@apollo/client";
 import {
   GetAllProjects,
@@ -23,16 +23,18 @@ import {
   WorksType,
 } from "@services/CmsService";
 
-export type DatoCmsApi = ApolloClient<NormalizedCacheObject>;
+export type DatoCmsApi = ApolloClient;
 
 export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCmsApi> {
   protected get api() {
     const client = new ApolloClient({
-      uri: process.env.DATO_CMS_ENDPOINT,
+      link: new HttpLink({
+        uri: process.env.DATO_CMS_ENDPOINT,
+        headers: {
+          Authorization: `Bearer ${process.env.DATO_CMS_TOKEN}`,
+        },
+      }),
       cache: new InMemoryCache(),
-      headers: {
-        Authorization: `Bearer ${process.env.DATO_CMS_TOKEN}`,
-      },
     });
 
     return client;
@@ -42,7 +44,7 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
     const response = await this.api.query<AllExperiencesType>({
       query: GetExperiences,
     });
-    return response.data.allExperiences;
+    return response.data!.allExperiences;
   }
 
   async getAllWorks(): Promise<WorksType[]> {
@@ -50,15 +52,16 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
       query: GetWorks,
     });
 
-    return response.data.allWorks;
+    return response.data!.allWorks;
   }
 
   public async getUniqueWork(slug: string): Promise<WorksType> {
     const response = await this.api.query<UniqueWorkType>({
-      query: GetUniqueWork(slug),
+      query: GetUniqueWork,
+      variables: { slug },
     });
 
-    return response.data.work;
+    return response.data!.work;
   }
 
   public async getAllProjects(): Promise<AllProjects[]> {
@@ -66,15 +69,16 @@ export class DatoCmsServiceClass extends CmsProviderServiceAbstractClass<DatoCms
       query: GetAllProjects,
     });
 
-    return response.data.allProjects;
+    return response.data!.allProjects;
   }
 
   public async getUniqueProject(slug: string): Promise<ProjectType> {
     const response = await this.api.query<UniqueProjectType>({
-      query: GetUniqueProject(slug),
+      query: GetUniqueProject,
+      variables: { slug },
     });
 
-    return response.data.project;
+    return response.data!.project;
   }
 }
 

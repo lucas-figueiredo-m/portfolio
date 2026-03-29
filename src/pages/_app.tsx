@@ -1,11 +1,16 @@
 import React, { useEffect } from "react";
-import { ThemeProvider } from "styled-components";
 import type { AppProps } from "next/app";
-import { theme, GlobalStyles } from "@styles";
-import { NextUIProvider, createTheme } from "@nextui-org/react";
 import { useRouter } from "next/router";
+import { Inter } from "next/font/google";
 import { initializeApp } from "firebase/app";
 import { getAnalytics, logEvent } from "firebase/analytics";
+import "../styles/globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_APIKEY,
@@ -19,11 +24,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-const nextUiTheme = createTheme({
-  type: "dark",
-  theme,
-});
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   const routers = useRouter();
@@ -56,12 +56,9 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    <ThemeProvider theme={theme}>
-      <NextUIProvider theme={nextUiTheme}>
-        <Component {...pageProps} />
-        <GlobalStyles />
-      </NextUIProvider>
-    </ThemeProvider>
+    <div className={`${inter.variable} ${inter.className}`}>
+      <Component {...pageProps} />
+    </div>
   );
 };
 

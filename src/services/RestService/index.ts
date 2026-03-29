@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import type { AxiosInstance, AxiosRequestConfig } from "axios";
 
 interface ReqParams<P> extends AxiosRequestConfig {
@@ -30,13 +30,8 @@ export class RestServiceClass {
     path: string,
     conf?: ReqParams<ReqParamsType>
   ): Promise<ResponseType> {
-    try {
-      const { data } = await this.api.get<ResponseType>(path, conf);
-      return data;
-    } catch (error) {
-      if (error instanceof AxiosError) throw error;
-      else throw error;
-    }
+    const { data } = await this.api.get<ResponseType>(path, conf);
+    return data;
   }
 
   async post<RequestBodyType, ResponseType, ReqParamsType = DefaultParams>(
@@ -44,16 +39,11 @@ export class RestServiceClass {
     requestBody: RequestBodyType,
     conf?: ReqParams<ReqParamsType>
   ): Promise<ResponseType> {
-    try {
-      const { data } = await this.api.post<ResponseType>(
-        path,
-        requestBody,
-        conf
-      );
-      return data;
-    } catch (error) {
-      if (error instanceof AxiosError) throw error;
-      else throw error;
-    }
+    const { data } = await this.api.post<ResponseType>(
+      path,
+      requestBody,
+      conf
+    );
+    return data;
   }
 }

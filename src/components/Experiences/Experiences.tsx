@@ -1,35 +1,8 @@
 import React from "react";
-import { ExperienceContainer } from "./styles";
 import { ExperienceItem } from "./ExperienceItem";
 import { ExperiencesType } from "@services/CmsService";
 import { SectionTitle } from "@components/SectionTitle";
 
-const previousExperiences = [
-  {
-    from: "2020",
-    to: "2021",
-    title: "Senior Mobile Engineer",
-    description: "Lorem ipsum sit dolor amet",
-  },
-  {
-    from: "2020",
-    to: "2021",
-    title: "Senior Mobile Engineer",
-    description: "Lorem ipsum sit dolor amet",
-  },
-  {
-    from: "2020",
-    to: "2021",
-    title: "Senior Mobile Engineer",
-    description: "Lorem ipsum sit dolor amet",
-  },
-  {
-    from: "2020",
-    to: "2021",
-    title: "Senior Mobile Engineer",
-    description: "Lorem ipsum sit dolor amet",
-  },
-];
 type ExperiencesSectionType = {
   experiences: ExperiencesType[];
 };
@@ -38,9 +11,9 @@ export const Experiences: React.FC<ExperiencesSectionType> = ({
   experiences,
 }) => {
   return (
-    <ExperienceContainer>
-      <SectionTitle title="Latest experiences" />
-      <section>
+    <section id="experience" className="w-full py-24">
+      <SectionTitle label="EXPERIENCE" title="Latest experiences" />
+      <div className="w-full mt-12 space-y-1">
         {experiences.map((item) => (
           <ExperienceItem
             key={item.id}
@@ -50,7 +23,7 @@ export const Experiences: React.FC<ExperiencesSectionType> = ({
             description={item.description}
           />
         ))}
-      </section>
-    </ExperienceContainer>
+      </div>
+    </section>
   );
 };

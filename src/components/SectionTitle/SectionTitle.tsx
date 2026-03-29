@@ -1,19 +1,29 @@
 import React from "react";
-import { Container } from "./styles";
 
 type SectionTitleProps = {
   title: string | React.ReactNode;
+  label?: string;
   description?: string | React.ReactNode;
 };
 
 export const SectionTitle: React.FC<SectionTitleProps> = ({
   title,
+  label,
   description,
 }) => {
   return (
-    <Container>
-      <h1>#{title}</h1>
-      {description && <h2>{description}</h2>}
-    </Container>
+    <div className="w-full flex flex-col items-start gap-3">
+      {label && (
+        <span className="text-xs font-medium uppercase tracking-widest text-accent">
+          {label}
+        </span>
+      )}
+      <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
+        {title}
+      </h2>
+      {description && (
+        <p className="text-lg text-text-secondary">{description}</p>
+      )}
+    </div>
   );
 };

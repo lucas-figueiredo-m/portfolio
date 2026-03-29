@@ -1,0 +1,28 @@
+[    1108ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/work:0
+[    1128ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-hVkBjg hOixJQ" "sc-jsMahE cYQZsC" 
+    at li
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at NavigationLink (webpack-internal:///./src/components/NavigationLink/NavigationLink.tsx:21:11)
+    at ul
+    at header
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Header (webpack-internal:///./src/components/Header/index.tsx:24:94)
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at WorkPage (webpack-internal:///./src/pages/work/index.tsx:24:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1

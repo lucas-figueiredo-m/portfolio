@@ -1,5 +1,4 @@
 import React from "react";
-import { LanguageContentContainer } from "./ProjectDetail.styled";
 import { LanguageTypes } from "@services/CmsService";
 import { LanguageLogos } from "@components/LanguageLogos";
 
@@ -11,9 +10,11 @@ export const LanguageContent: React.FC<LanguageContentProps> = ({
   language,
 }) => {
   return (
-    <LanguageContentContainer>
+    <div className="flex items-center gap-2 rounded-full border border-border bg-surface-elevated px-3 py-1.5 [&_svg]:h-5 [&_svg]:w-5">
       <LanguageLogos language={language} />
-      <h2>{language}</h2>
-    </LanguageContentContainer>
+      <span className="text-sm font-medium text-text-secondary">
+        {language}
+      </span>
+    </div>
   );
 };

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f src/pages/old.tsx src/pages/blog/index.tsx src/pages/courses/index.tsx src/pages/index.html)",
+      "Bash(rm -rf public/assets/)",
+      "Bash(git mv:*)",
+      "Bash(npm install:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "Bash(npm run:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npm view:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const p = require\\(''./node_modules/react-icons/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(node -e \"const p = require\\(''./node_modules/html-react-parser/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(node -e \"const p = require\\(''./node_modules/isomorphic-dompurify/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(node -e \"const p = require\\(''./node_modules/date-fns/package.json''\\); console.log\\(p.version\\)\")",
+      "Bash(npx vitest:*)",
+      "Bash(wc:*)",
+      "Bash(curl -s https://www.google.com/search?q=best+developer+portfolio+websites+2024+2025 -H \"User-Agent: Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36\")",
+      "WebFetch(domain:leerob.io)",
+      "Bash(mkdir -p /Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/src/hooks/useReveal)",
+      "Bash(mkdir -p /Users/lucasfigueiredo/www/web/lucas-figueiredo-m.github.io/src/components/RevealOnScroll)",
+      "mcp__plugin_playwright_playwright__browser_run_code",
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
