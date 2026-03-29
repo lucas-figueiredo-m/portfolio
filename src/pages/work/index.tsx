@@ -1,8 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import { Header } from "@components/Header";
-
-import { WorkContainer, WorkContent } from "@styles";
 import { WorkItem } from "@components/WorkItem";
 import { CmsService, WorksType } from "@services/CmsService";
 import { Footer } from "@components/Footer";
@@ -16,14 +14,14 @@ type WorkPageProps = {
 
 const WorkPage: React.FC<WorkPageProps> = ({ works }) => {
   return (
-    <WorkContainer>
+    <div className="flex flex-col w-full h-full [&>main]:flex [&>main]:flex-col [&>main]:gap-32">
       <Head>
         <title>Work Experience | Lucas Figueiredo</title>
         <meta name="description" content="Professional work experience of Lucas Figueiredo as a mobile engineer." />
       </Head>
       <Header />
       <main className="container">
-        <WorkContent>
+        <section className="w-full flex flex-col items-center gap-20 my-20">
           {works.map((work, index) => (
             <WorkItem
               key={index}
@@ -31,12 +29,13 @@ const WorkPage: React.FC<WorkPageProps> = ({ works }) => {
               type={work.jobType}
               imgUrl={work.coverImage.url}
               slug={work.slug}
+              isEven={index % 2 !== 0}
             />
           ))}
-        </WorkContent>
+        </section>
       </main>
       <Footer />
-    </WorkContainer>
+    </div>
   );
 };
 

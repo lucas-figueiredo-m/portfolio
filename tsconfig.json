@@ -15,7 +15,6 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@styles": ["./src/styles/index.ts"],
       "@components/*": ["./src/components/*"],
       "@assets/*": ["./src/assets/*"],
       "@services/*": ["./src/services/*"],

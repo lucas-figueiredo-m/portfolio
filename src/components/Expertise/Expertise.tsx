@@ -1,5 +1,4 @@
 import { SectionTitle } from "@components/SectionTitle";
-import { Container, ExpertiseContainer } from "./styles";
 import { ExpertiseItem } from "./ExpertiseItem";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { TsIcon } from "@assets/icons";
@@ -22,9 +21,9 @@ export const Expertise: React.FC = () => {
     return "React Native";
   };
   return (
-    <Container>
+    <section className="w-full">
       <SectionTitle title="Expert in" />
-      <ExpertiseContainer>
+      <div className="flex flex-row items-center">
         <ExpertiseItem
           hoverColor="rgb(238, 211, 57)"
           icon={<IoLogoJavascript />}
@@ -40,12 +39,14 @@ export const Expertise: React.FC = () => {
           icon={<TsIcon />}
           label="TypeScript"
         />
-      </ExpertiseContainer>
-      <section>
-        <div />
-        <h2>Complete Tech Stack</h2>
-        <div />
+      </div>
+      <section className="flex flex-row w-full gap-8 items-center mt-20">
+        <div className="flex flex-row flex-1 border-b-2 border-[#FF2D19]" />
+        <h2 className="text-white text-[1.8rem] max-[450px]:text-[1.3rem]">
+          Complete Tech Stack
+        </h2>
+        <div className="flex flex-row flex-1 border-b-2 border-[#FF2D19]" />
       </section>
-    </Container>
+    </section>
   );
 };

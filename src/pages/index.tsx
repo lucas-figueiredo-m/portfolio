@@ -1,8 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import { Header } from "@components/Header";
-
-import { HomeContainer } from "../styles/HomeStyles";
 import { HomeHero } from "@components/HomeHero";
 import { Footer } from "@components/Footer";
 import { Experiences } from "@components/Experiences";
@@ -12,7 +10,6 @@ import { Expertise } from "@components/Expertise";
 import { CmsService, ExperiencesType } from "@services/CmsService";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import { theme } from "@styles";
 import { GetStaticProps } from "next";
 
 type HomeProps = {
@@ -21,7 +18,7 @@ type HomeProps = {
 
 const Home: React.FC<HomeProps> = ({ experiences }) => {
   return (
-    <HomeContainer>
+    <div className="flex flex-col w-full h-full [&>main]:flex [&>main]:flex-col [&>main]:gap-32">
       <Head>
         <title>Lucas Figueiredo | Mobile Engineer</title>
         <meta name="description" content="Portfolio of Lucas Figueiredo, a Mobile Engineer specialized in React Native, TypeScript, and mobile app development." />
@@ -42,10 +39,10 @@ const Home: React.FC<HomeProps> = ({ experiences }) => {
         position="bottom-right"
         autoClose={5000}
         newestOnTop
-        progressStyle={{ backgroundColor: theme.colors.support }}
+        progressStyle={{ backgroundColor: "#FF2D19" }}
         theme="dark"
       />
-    </HomeContainer>
+    </div>
   );
 };
 

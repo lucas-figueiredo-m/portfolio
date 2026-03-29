@@ -1,8 +1,6 @@
-export {
-  ProjectDetailContainer,
-  ProjectDetailContent,
-  BadgesContainer,
-  ColumnPackages,
-  FutureReleasesContent,
-} from "./ProjectDetail.styled";
+export * from "./ProjectDetailContainer";
+export * from "./ProjectDetailContent";
+export * from "./BadgesContainer";
+export * from "./ColumnPackages";
+export * from "./FutureReleasesContent";
 export * from "./Banner";

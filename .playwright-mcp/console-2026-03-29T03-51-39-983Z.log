@@ -59,3 +59,489 @@ See more info here: https://nextjs.org/docs/messages/react-hydration-error @ web
 [   69392ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/websocket.js:60
 [   75380ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/51f8f40d85e7a65c.webpack.hot-update.json:0
 [   77201ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/work:0
+[  300644ms] [ERROR] Error: Loading initial props cancelled
+    at eval (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:1296:29) @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  300704ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  303180ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  303274ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/239185d63d4df5e7.webpack.hot-update.json:0
+[  303693ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  303736ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-ilEZps irliKR" "sc-beqWaB TbzMy" 
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Home (webpack-internal:///./src/pages/index.tsx:38:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  303754ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  303755ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  306261ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  306290ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-ilEZps irliKR" "sc-beqWaB TbzMy" 
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Home (webpack-internal:///./src/pages/index.tsx:38:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  306307ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  306308ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  307539ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  307568ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-ilEZps irliKR" "sc-beqWaB TbzMy" 
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Home (webpack-internal:///./src/pages/index.tsx:38:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  307581ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  307582ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  323560ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  323589ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-cPlDXj kfrOsd" "sc-beqWaB TbzMy" 
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Home (webpack-internal:///./src/pages/index.tsx:38:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  323604ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  323604ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  411772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/:0
+[  412039ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  414973ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  415001ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-UxxwN hWYfBI" "sc-beqWaB TbzMy" 
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Home (webpack-internal:///./src/pages/index.tsx:38:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  415020ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  415024ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  442375ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/work:0
+[  442399ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-jOQpHc kHRROE" "sc-dmqHEX euDzzO" 
+    at section
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at main
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at WorkPage (webpack-internal:///./src/pages/work/index.tsx:24:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  445882ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/work:0
+[  445905ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-jOQpHc kHRROE" "sc-dmqHEX euDzzO" 
+    at section
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at main
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at WorkPage (webpack-internal:///./src/pages/work/index.tsx:24:11)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:751:55)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///./node_modules/@react-aria/overlays/dist/module.js:715:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $704cf1d3b684cc5c$export$9f8ac96af4b1b2ae (webpack-internal:///./node_modules/@react-aria/ssr/dist/module.js:23:64)
+    at eval (webpack-internal:///./node_modules/@nextui-org/react/esm/theme/theme-provider.js:15:138)
+    at Fe (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:17316)
+    at App (webpack-internal:///./src/pages/_app.tsx:38:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  447105ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  468180ms] [WARNING] It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.
+
+See https://s-c.sh/2BAXzed for more info. @ webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:30
+[  470675ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  470718ms] [ERROR] Warning: Prop `%s` did not match. Server: %s Client: %s%s className "sc-FIATH dipPUO" "sc-beqWaB TbzMy" 
+    at div
+    at O (webpack-internal:///./node_modules/styled-components/dist/styled-components.browser.esm.js:31:19767)
+    at Home (webpack-internal:///./src/pages/index.tsx:38:11)
+    at App (webpack-internal:///./src/pages/_app.tsx:31:11)
+    at PathnameContextProviderAdapter (webpack-internal:///./node_modules/next/dist/shared/lib/router/adapters.js:62:11)
+    at ErrorBoundary (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:303:63)
+    at ReactDevOverlay (webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:852:919)
+    at Container (webpack-internal:///./node_modules/next/dist/client/index.js:62:1)
+    at AppContainer (webpack-internal:///./node_modules/next/dist/client/index.js:172:11)
+    at Root (webpack-internal:///./node_modules/next/dist/client/index.js:347:11) 
+
+See more info here: https://nextjs.org/docs/messages/react-hydration-error @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  470725ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  498248ms] [ERROR] Error: Abort fetching component for route: "/projects/[slug]"
+    at handleCancelled (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:385:27)
+    at eval (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:1280:17)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:13:28)
+    at _next (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:31:17) @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  499983ms] [ERROR] Error: Loading initial props cancelled
+    at eval (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:1296:29) @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  503858ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1684181911-jobble-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  504467ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1684181904-jobble-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  512320ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1683237759-seuvale2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  512334ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1683237764-seuvale1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  522479ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1683230674-apollo2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  522824ms] [WARNING] Image with src "https://www.datocms-assets.com/99299/1683230669-apollo1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10
+[  594894ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/data/development/projects.json:0
+[  594896ms] [ERROR] Error: Failed to load static props
+    at eval (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:313:35) @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  595204ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  599522ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  599915ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  599916ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  600266ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  600473ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  600473ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  600750ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  600956ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  600957ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  601235ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  601442ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  601442ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  601717ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  601923ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  601924ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  602203ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  602410ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  602410ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  602684ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  602890ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  602891ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  603178ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  603385ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  603385ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  603663ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  603871ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  603871ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  604137ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  604345ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  604345ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  604651ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  604859ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  604859ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  605129ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  605336ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  605336ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  605607ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  605815ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  605815ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  606098ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  606306ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  606306ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  606589ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  606797ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  606798ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  607081ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  607288ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  607288ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  607576ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  607783ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  607783ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  608058ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  608265ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  608265ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  608549ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  608756ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  608757ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  609054ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  609260ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  609261ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  609547ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  609753ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  609753ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  610037ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  610244ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  610244ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  610521ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  610730ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  610730ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  611017ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  611218ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  611218ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  611514ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  611835ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/55ed56809cb05562.webpack.hot-update.json:0
+[  611836ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/hot-dev-client.js:236
+[  611943ms] [ERROR] TypeError: Failed to fetch
+    at fetchRetry (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:228:12)
+    at getData (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:261:16)
+    at fetchNextData (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:361:38)
+    at eval (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:1061:47)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:13:28)
+    at _next (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:31:17)
+    at eval (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:36:13)
+    at new Promise (<anonymous>)
+    at eval (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:28:16)
+    at Router._getData (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:1291:16)
+    at eval (webpack-internal:///./node_modules/next/dist/shared/lib/router/router.js:1045:59)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:13:28)
+    at _next (webpack-internal:///./node_modules/@swc/helpers/lib/_async_to_generator.js:31:17) @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[  612148ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/projects:0
+[  642130ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/websocket.js:60
+[  649249ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/544d7b713c6bf23b.webpack.hot-update.json:0
+[  649850ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/544d7b713c6bf23b.webpack.hot-update.json:0
+[  651337ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:3000/:0
+[  651370ms] [WARNING] Image with src "/_next/static/media/me.2fb166ee.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority @ webpack-internal:///./node_modules/next/dist/shared/lib/utils/warn-once.js:10

@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "./PlayStoreButton.styled";
 import Link from "next/link";
 import { PlayStoreBadge } from "@assets/icons";
 
@@ -9,10 +8,10 @@ type PlayStoreButtonProps = {
 
 export const PlayStoreButton: React.FC<PlayStoreButtonProps> = ({ url }) => {
   return (
-    <Container>
+    <div className="transition-opacity duration-500 opacity-100 hover:opacity-80 [&_svg]:w-40">
       <Link href={url} target="_blank">
         <PlayStoreBadge />
       </Link>
-    </Container>
+    </div>
   );
 };

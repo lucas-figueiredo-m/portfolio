@@ -1,26 +1,15 @@
-import styled from "styled-components";
+import React from "react";
 
-export const ProjectsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+type ProjectsContainerProps = {
+  children: React.ReactNode;
+};
 
-  > main {
-    display: grid;
-    gap: 1.5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    width: 100%;
-
-    @media (max-width: 1000px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (max-width: 550px) {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-`;
+export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
+  children,
+}) => {
+  return (
+    <div className="flex flex-col w-full h-full [&>main]:grid [&>main]:gap-6 [&>main]:mt-20 [&>main]:mb-20 [&>main]:grid-cols-1 [&>main]:w-full min-[550px]:[&>main]:grid-cols-2 min-[1000px]:[&>main]:grid-cols-3">
+      {children}
+    </div>
+  );
+};

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { NavigationLinkContainer } from "./styles";
 import { useRouter } from "next/router";
 
 type NavLinkProps = {
@@ -25,12 +24,20 @@ export const NavigationLink: React.FC<NavLinkProps> = ({
   const isActive = verifyIfIsActive();
 
   return (
-    <NavigationLinkContainer isActive={isActive}>
-      <div>
+    <li>
+      <div className="transition-all duration-500 ease-in-out mt-8 hover:scale-105">
         <Link href={url} legacyBehavior>
-          <a>{label}</a>
+          <a
+            className={`uppercase transition-colors duration-500 max-[700px]:text-2xl max-[700px]:font-medium ${
+              isActive
+                ? "text-[#FF2D19] hover:text-[#ff7066]"
+                : "text-white hover:text-[#ffffff4d]"
+            }`}
+          >
+            {label}
+          </a>
         </Link>
       </div>
-    </NavigationLinkContainer>
+    </li>
   );
 };

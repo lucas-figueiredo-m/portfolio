@@ -1,5 +1,6 @@
-import React, { ReactNode } from "react";
-import { PhoneIcon, TechStackContainer, ServerIcon, OtherIcon } from "./styles";
+import React from "react";
+import { IoPhonePortraitOutline, IoServer } from "react-icons/io5";
+import { BsThreeDots } from "react-icons/bs";
 import { TechStackItem } from "./TechStackItem";
 import { TechStackData } from "./TechStack.type";
 
@@ -7,7 +8,7 @@ const techStack: TechStackData[] = [
   {
     title: "Mobile",
     description: "",
-    icon: <PhoneIcon />,
+    icon: <IoPhonePortraitOutline className="w-10 h-10 stroke-black" />,
     frameworks: [
       "React Native",
       "Redux",
@@ -21,7 +22,7 @@ const techStack: TechStackData[] = [
   {
     title: "Backend",
     description: "",
-    icon: <ServerIcon />,
+    icon: <IoServer className="w-10 h-10 fill-black" />,
     frameworks: [
       "Node.JS",
       "Nest.js",
@@ -35,7 +36,7 @@ const techStack: TechStackData[] = [
   {
     title: "Other",
     description: "",
-    icon: <OtherIcon />,
+    icon: <BsThreeDots className="w-10 h-10 fill-black" />,
     frameworks: [
       "JavaScript",
       "TypeScript",
@@ -51,10 +52,10 @@ const techStack: TechStackData[] = [
 
 export const TechStack: React.FC = () => {
   return (
-    <TechStackContainer>
+    <div className="w-full rounded-t-[2rem] bg-white [mask-image:linear-gradient(black_80%,transparent_90%)] py-12 pb-36 px-0 flex flex-row max-[800px]:flex-col max-[800px]:gap-12 max-[800px]:px-12 max-[800px]:[mask-image:linear-gradient(black_90%,transparent_95%)] max-[500px]:px-6 max-[500px]:rounded-t-[1.5rem]">
       {techStack.map((tech, index) => (
-        <TechStackItem key={index.toString()} tech={tech} />
+        <TechStackItem key={index.toString()} tech={tech} isLast={index === techStack.length - 1} />
       ))}
-    </TechStackContainer>
+    </div>
   );
 };

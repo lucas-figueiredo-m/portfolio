@@ -1,7 +1,6 @@
 import { AppStoreBadge } from "@assets/icons";
 import Link from "next/link";
 import React from "react";
-import { Container } from "./AppStoreButton.styled";
 
 type AppStoreButtonProps = {
   url: string;
@@ -9,10 +8,10 @@ type AppStoreButtonProps = {
 
 export const AppStoreButton: React.FC<AppStoreButtonProps> = ({ url }) => {
   return (
-    <Container>
+    <div className="transition-opacity duration-500 opacity-100 hover:opacity-80 [&_svg]:w-40">
       <Link href={url} target="_blank">
         <AppStoreBadge />
       </Link>
-    </Container>
+    </div>
   );
 };

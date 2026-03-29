@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from "react";
-import { Container } from "./styles";
 import { useMediaQuery } from "@hooks/useMediaQuery";
 import { Hamburger } from "@components/Hamburger";
 import { Menu } from "@components/Menu";
@@ -33,21 +32,23 @@ export const Header: React.FC = () => {
   }, [isOpened]);
 
   return (
-    <Container isSmallScreen={isSmallScreen}>
+    <header
+      className={`w-full flex items-center h-16 border-b border-[#73140B] sticky top-0 bg-black/30 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[11.6px] z-[250] ${
+        isSmallScreen ? "justify-end" : "justify-center"
+      }`}
+    >
       {isSmallScreen ? (
         <>
           <Hamburger isOpened={isOpened} onPress={onHamburguerPress} />
           <Menu onOverlayPress={onCloseDrawer} isOpened={isOpened} />
         </>
       ) : (
-        <ul>
+        <ul className="flex gap-8 items-center">
           <NavigationLink url="/" label="Home" />
           <NavigationLink url="/work" label="Work" includes />
           <NavigationLink url="/projects" label="Projects" includes />
-          {/* <NavigationLink url="/blog" label="Blog" includes />
-          <NavigationLink url="/courses" label="Courses" includes /> */}
         </ul>
       )}
-    </Container>
+    </header>
   );
 };

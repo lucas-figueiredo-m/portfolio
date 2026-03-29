@@ -1,11 +1,10 @@
 import React from "react";
-import { Container } from "./styles";
 import { SectionTitle } from "@components/SectionTitle";
 import { Form } from "..";
 
 export const ContactForm: React.FC = () => {
   return (
-    <Container>
+    <div>
       <SectionTitle
         title={<>Need my services?</>}
         description={
@@ -17,6 +16,6 @@ export const ContactForm: React.FC = () => {
         }
       />
       <Form />
-    </Container>
+    </div>
   );
 };
