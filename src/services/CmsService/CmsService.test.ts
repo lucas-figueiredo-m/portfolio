@@ -1,94 +1,59 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
-
-const {
-  mockGetAllExperiences,
-  mockGetAllWorks,
-  mockGetUniqueWork,
-  mockGetAllProjects,
-  mockGetUniqueProject,
-} = vi.hoisted(() => ({
-  mockGetAllExperiences: vi.fn(),
-  mockGetAllWorks: vi.fn(),
-  mockGetUniqueWork: vi.fn(),
-  mockGetAllProjects: vi.fn(),
-  mockGetUniqueProject: vi.fn(),
-}));
-
-vi.mock("@services/DatoCmsService", () => ({
-  DatoCmsService: {
-    getAllExperiences: mockGetAllExperiences,
-    getAllWorks: mockGetAllWorks,
-    getUniqueWork: mockGetUniqueWork,
-    getAllProjects: mockGetAllProjects,
-    getUniqueProject: mockGetUniqueProject,
-  },
-  DatoCmsApi: undefined,
-}));
-
+import { describe, it, expect } from "vitest";
 import { CmsService } from "./CmsService";
+import { experiences } from "@data/experiences";
+import { works } from "@data/works";
+import { projects } from "@data/projects";
 
 describe("CmsService", () => {
-  beforeEach(() => {
-    vi.clearAllMocks();
-  });
-
   describe("getAllExperiences", () => {
-    it("delegates to cms provider", async () => {
-      const experiences = [{ id: 1, role: "Developer" }];
-      mockGetAllExperiences.mockResolvedValue(experiences);
-
+    it("returns all experiences from local data", async () => {
       const result = await CmsService.getAllExperiences();
-
-      expect(mockGetAllExperiences).toHaveBeenCalled();
       expect(result).toEqual(experiences);
+      expect(result.length).toBeGreaterThan(0);
     });
   });
 
   describe("getAllWorks", () => {
-    it("delegates to cms provider", async () => {
-      const works = [{ id: 1, title: "Work A" }];
-      mockGetAllWorks.mockResolvedValue(works);
-
+    it("returns all works from local data", async () => {
       const result = await CmsService.getAllWorks();
-
-      expect(mockGetAllWorks).toHaveBeenCalled();
       expect(result).toEqual(works);
+      expect(result.length).toBeGreaterThan(0);
     });
   });
 
   describe("getUniqueWork", () => {
-    it("passes slug correctly to cms provider", async () => {
-      const work = { id: 1, title: "Work A", slug: "work-a" };
-      mockGetUniqueWork.mockResolvedValue(work);
+    it("returns the correct work by slug", async () => {
+      const result = await CmsService.getUniqueWork("jobble");
+      expect(result.company).toBe("Jobble Inc");
+      expect(result.slug).toBe("jobble");
+    });
 
-      const result = await CmsService.getUniqueWork("work-a");
-
-      expect(mockGetUniqueWork).toHaveBeenCalledWith("work-a");
-      expect(result).toEqual(work);
+    it("throws for unknown slug", async () => {
+      await expect(CmsService.getUniqueWork("nonexistent")).rejects.toThrow(
+        "Work not found: nonexistent"
+      );
     });
   });
 
   describe("getAllProjects", () => {
-    it("delegates to cms provider", async () => {
-      const projects = [{ id: 1, title: "Project A" }];
-      mockGetAllProjects.mockResolvedValue(projects);
-
+    it("returns all projects from local data", async () => {
       const result = await CmsService.getAllProjects();
-
-      expect(mockGetAllProjects).toHaveBeenCalled();
       expect(result).toEqual(projects);
+      expect(result.length).toBeGreaterThan(0);
     });
   });
 
   describe("getUniqueProject", () => {
-    it("passes slug correctly to cms provider", async () => {
-      const project = { id: 1, title: "Project A", slug: "project-a" };
-      mockGetUniqueProject.mockResolvedValue(project);
+    it("returns the correct project by slug", async () => {
+      const result = await CmsService.getUniqueProject("swift-pokedex");
+      expect(result.title).toBe("Swift Pokédex");
+      expect(result.slug).toBe("swift-pokedex");
+    });
 
-      const result = await CmsService.getUniqueProject("project-a");
-
-      expect(mockGetUniqueProject).toHaveBeenCalledWith("project-a");
-      expect(result).toEqual(project);
+    it("throws for unknown slug", async () => {
+      await expect(
+        CmsService.getUniqueProject("nonexistent")
+      ).rejects.toThrow("Project not found: nonexistent");
     });
   });
 });

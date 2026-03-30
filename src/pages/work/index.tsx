@@ -52,7 +52,6 @@ export const getStaticProps = async () => {
     props: {
       works,
     },
-    revalidate: 60 * 60 * 12,
   };
 };
 

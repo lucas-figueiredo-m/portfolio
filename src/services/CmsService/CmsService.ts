@@ -1,8 +1,6 @@
-import { DatoCmsService, DatoCmsApi } from "@services/DatoCmsService";
-import {
-  CmsProviderServiceAbstractClass,
-  CmsServiceAbstractClass,
-} from "@services/interfaces";
+import { experiences } from "@data/experiences";
+import { works } from "@data/works";
+import { projects } from "@data/projects";
 import {
   AllProjects,
   ExperiencesType,
@@ -10,30 +8,30 @@ import {
   WorksType,
 } from "./CmsService.type";
 
-class CmsServiceClass extends CmsServiceAbstractClass<DatoCmsApi> {
-  constructor(private cmsService: CmsProviderServiceAbstractClass<DatoCmsApi>) {
-    super(cmsService);
-  }
-
+class CmsServiceClass {
   public async getAllExperiences(): Promise<ExperiencesType[]> {
-    return this.cmsService.getAllExperiences();
+    return experiences;
   }
 
   public async getAllWorks(): Promise<WorksType[]> {
-    return this.cmsService.getAllWorks();
+    return works;
   }
 
   public async getUniqueWork(slug: string): Promise<WorksType> {
-    return this.cmsService.getUniqueWork(slug);
+    const work = works.find((w) => w.slug === slug);
+    if (!work) throw new Error(`Work not found: ${slug}`);
+    return work;
   }
 
   public async getAllProjects(): Promise<AllProjects[]> {
-    return this.cmsService.getAllProjects();
+    return projects;
   }
 
-  public getUniqueProject(slug: string): Promise<ProjectType> {
-    return this.cmsService.getUniqueProject(slug);
+  public async getUniqueProject(slug: string): Promise<ProjectType> {
+    const project = projects.find((p) => p.slug === slug);
+    if (!project) throw new Error(`Project not found: ${slug}`);
+    return project;
   }
 }
 
-export const CmsService = new CmsServiceClass(DatoCmsService);
+export const CmsService = new CmsServiceClass();
